@@ -1,90 +1,118 @@
 # Hugging Face Trending Models Digest 2026-05-31
 
-> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-05-31 00:26 UTC
+> Source: [Hugging Face Hub](https://huggingface.co/) | 30 models | Generated: 2026-05-31 06:56 UTC
 
 ---
 
-# Hugging Face Trending Models Digest — 2026-05-31
+## Hugging Face Trending Models Digest — 2026-05-31
+
+### 1. Today's Highlights
+
+The Hugging Face Hub is buzzing with activity as **DeepSeek-V4-Pro** and **DeepSeek-V4-Flash** dominate the language model charts, accumulating over 9.3 million total downloads and nearly 5,800 combined likes. The **Qwen3.6** family continues its strong run, with official and community‑finetuned vision‑language models (e.g., Qwen3.6‑27B, MiniCPM‑V‑4.6) drawing massive traction. A notable shift toward **Mixture‑of‑Experts (MoE)** architectures is evident, with models like LiquidAI’s LFM2.5‑8B‑A1B and Tencent’s Hy‑MT2‑30B‑A3B gaining attention for their efficiency. In the generative space, ByteDance’s **Lance** (any‑to‑any) and SulphurAI’s **Sulphur‑2‑base** (text‑to‑video) signal growing demand for unified multimodal creation. Finally, the rise of **GGUF quantizations** and community fine‑tunes (e.g., uncensored Qwen3.6 variants) points to a thriving ecosystem of accessible, deploy‑ready models.
 
 ---
 
-## 1. Today's Highlights
+### 2. Trending Models by Category
 
-DeepSeek-V4-Pro dominates this week's leaderboard with 4.6M weekly downloads, cementing its position as the go-to open-weight reasoning model. The Qwen 3.6 family shows remarkable ecosystem breadth, with official releases, community fine-tunes, and multiple quantization formats all trending simultaneously. Notably, multimodal capabilities have become table stakes—nearly every major language model now ships with vision support, while dedicated video generation models like Sulphur-2-base are gaining serious traction. The emergence of "any-to-any" architectures like ByteDance's Lance signals a shift toward unified foundation models. Meanwhile, the quantization community remains highly active, with Unsloth and Jackrong delivering optimized GGUF variants hours after base model releases.
+#### 🧠 Language Models (LLMs, Chat, Instruction‑tuned)
+
+- **deepseek‑ai/DeepSeek‑V4‑Pro**  
+  *Author: deepseek‑ai · Likes: 4,471 · Downloads: 5,918,111*  
+  The flagship text‑generation model from DeepSeek, topping the charts with its strong conversational performance and massive adoption in both research and production.
+
+- **deepseek‑ai/DeepSeek‑V4‑Flash**  
+  *Author: deepseek‑ai · Likes: 1,308 · Downloads: 3,427,926*  
+  A faster, MIT‑licensed sibling of V4 Pro, optimized for inference speed and evaluated on a wide range of benchmarks.
+
+- **openbmb/MiniCPM5‑1B**  
+  *Author: openbmb · Likes: 622 · Downloads: 28,793*  
+  A compact 1B‑parameter text‑generation model from OpenBMB, trending for its strong performance‑to‑size ratio and LLaMA‑compatible architecture.
+
+- **LiquidAI/LFM2.5‑8B‑A1B**  
+  *Author: LiquidAI · Likes: 288 · Downloads: 17,084*  
+  An 8B‑parameter MoE model with only **1B active parameters**, showcasing LiquidAI’s efficient architecture for edge and resource‑constrained deployments.
+
+- **sapientinc/HRM‑Text‑1B**  
+  *Author: sapientinc · Likes: 423 · Downloads: 138,118*  
+  A 1B text‑generation model designed for human‑resource management tasks, gaining traction in enterprise AI workflows.
+
+#### 🎨 Multimodal & Generation (Image, Video, Audio, Text‑to‑X)
+
+- **bytedance‑research/Lance**  
+  *Author: bytedance‑research · Likes: 983 · Downloads: 2,856*  
+  A groundbreaking **any‑to‑any** model that handles image, video, and text generation in a single unified framework, signaling the next frontier of multimodal creation.
+
+- **Qwen/Qwen3.6‑27B**  
+  *Author: Qwen · Likes: 1,539 · Downloads: 4,971,730*  
+  The official 27B vision‑language model from Qwen, exceptionally popular for its strong multimodal reasoning and chat capabilities.
+
+- **openbmb/MiniCPM‑V‑4.6**  
+  *Author: openbmb · Likes: 1,077 · Downloads: 433,156*  
+  A compact yet powerful vision‑language model that brings high‑quality image understanding to smaller devices.
+
+- **SulphurAI/Sulphur‑2‑base**  
+  *Author: SulphurAI · Likes: 1,458 · Downloads: 1,557,858*  
+  A text‑to‑video diffusion model with GGUF support, enabling efficient video generation on consumer hardware.
+
+- **nvidia/LocateAnything‑3B**  
+  *Author: nvidia · Likes: 515 · Downloads: 18,327*  
+  NVIDIA’s feature‑extraction model for object localization in images, trending as a backbone for vision‑based systems.
+
+- **circlestone‑labs/Anima**  
+  *Author: circlestone‑labs · Likes: 1,603 · Downloads: 736,443*  
+  A ComfyUI‑compatible diffusion single‑file model for image generation, widely used by the creative community.
+
+#### 🔧 Specialized Models (Translation, OCR, TTS, Audio, Privacy)
+
+- **pyannote/speaker‑diarization‑3.1**  
+  *Author: pyannote · Likes: 2,077 · Downloads: 9,771,170*  
+  The latest version of the speaker diarization pipeline, a must‑have tool for audio‑based applications and voice analytics.
+
+- **openai/privacy‑filter**  
+  *Author: openai · Likes: 1,571 · Downloads: 304,691*  
+  A token‑classification model designed to detect and filter personally identifiable information (PII), reflecting growing privacy concerns.
+
+- **tencent/Hy‑MT2‑1.8B** / **Hy‑MT2‑30B‑A3B**  
+  *Author: tencent · Likes: 1,092 / 435 · Downloads: 16,805 / 3,833*  
+  Tencent’s MoE translation models (1.8B dense and 30B‑A3B MoE) leading the multilingual translation category with strong BLEU scores.
+
+- **Supertone/supertonic‑3**  
+  *Author: Supertone · Likes: 746 · Downloads: 55,382*  
+  A high‑quality text‑to‑speech model with ONNX support, preferred for natural‑sounding voice synthesis.
+
+- **PaddlePaddle/PaddleOCR‑VL‑1.6**  
+  *Author: PaddlePaddle · Likes: 109 · Downloads: 2,294*  
+  An ERNIE‑backed OCR‑vision‑language model, powering document understanding and text extraction workflows.
+
+- **OpenMOSS‑Team/MOSS‑TTS‑v1.5**  
+  *Author: OpenMOSS‑Team · Likes: 75 · Downloads: 11,254*  
+  A Chinese‑focused TTS model with custom code, gaining interest in the Mandarin speech synthesis community.
+
+#### 📦 Fine‑tunes & Quantizations (Community Variants, GGUF)
+
+- **HauhauCS/Qwen3.6‑35B‑A3B‑Uncensored‑HauhauCS‑Aggressive**  
+  *Author: HauhauCS · Likes: 1,125 · Downloads: 2,227,885*  
+  An uncensored, vision‑enabled MoE fine‑tune of Qwen3.6, extremely popular among users seeking less‑constrained output.
+
+- **unsloth/Qwen3.6‑27B‑MTP‑GGUF**  
+  *Author: unsloth · Likes: 567 · Downloads: 877,938*  
+  A GGUF quantized version of the Qwen3.6‑27B vision model, optimized for local inference and edge deployment.
+
+- **Jackrong/Qwopus3.6‑27B‑v2‑GGUF** / **v2‑MTP‑GGUF**  
+  *Author: Jackrong · Likes: 172 / 187 · Downloads: 105,264 / 33,167*  
+  Community GGUF quantizations of Qwen3.6, widely used for running vision‑language models on CPU and low‑VRAM GPUs.
+
+- **LiquidAI/LFM2.5‑8B‑A1B‑GGUF**  
+  *Author: LiquidAI · Likes: 126 · Downloads: 23,685*  
+  Official GGUF quantizations of the LFM2.5 MoE model, enabling efficient inference on llama.cpp and edge devices.
 
 ---
 
-## 2. Trending Models
+### 3. Ecosystem Signal
 
-### 🧠 Language Models (LLMs, chat models, instruction-tuned)
+The current landscape reveals several powerful trends:
 
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[deepseek-ai/DeepSeek-V4-Pro](https://huggingface.co/deepseek-ai/DeepSeek-V4-Pro)** | deepseek-ai | 4,463 | 5,918,111 | Flagship reasoning model with massive adoption; MIT license and strong eval results driving enterprise and research interest. |
-| **[deepseek-ai/DeepSeek-V4-Flash](https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash)** | deepseek-ai | 1,303 | 3,427,926 | Distilled efficient variant balancing performance and inference cost for production deployments. |
-| **[Qwen/Qwen3.6-35B-A3B](https://huggingface.co/Qwen/Qwen3.6-35B-A3B)** | Qwen | 1,954 | 5,728,121 | MoE architecture delivering 35B-quality at 3B active parameters; vision-language native. |
-| **[Qwen/Qwen3.6-27B](https://huggingface.co/Qwen/Qwen3.6-27B)** | Qwen | 1,537 | 4,971,730 | Dense counterpart to the MoE variant; strong conversational and multimodal performance. |
-| **[tencent/Hy-MT2-30B-A3B](https://huggingface.co/tencent/Hy-MT2-30B-A3B)** | tencent | 433 | 3,833 | Specialized translation-optimized MoE with competitive quality for multilingual workflows. |
-| **[tencent/Hy-MT2-1.8B](https://huggingface.co/tencent/Hy-MT2-1.8B)** | tencent | 1,091 | 16,805 | Compact translation model enabling edge deployment without quality sacrifice. |
-| **[openbmb/MiniCPM5-1B](https://huggingface.co/openbmb/MiniCPM5-1B)** | openbmb | 606 | 28,793 | Ultra-efficient 1B parameter model pushing performance boundaries for resource-constrained environments. |
-| **[LiquidAI/LFM2.5-8B-A1B](https://huggingface.co/LiquidAI/LFM2.5-8B-A1B)** | LiquidAI | 275 | 17,084 | Liquid foundation model with MoE architecture; novel attention mechanisms gaining researcher attention. |
-| **[sapientinc/HRM-Text-1B](https://huggingface.co/sapientinc/HRM-Text-1B)** | sapientinc | 418 | 138,118 | Domain-specific model for human resources and talent management applications. |
-| **[stepfun-ai/Step-3.7-Flash](https://huggingface.co/stepfun-ai/Step-3.7-Flash)** | stepfun-ai | 134 | 3,400 | StepFun's efficient vision-language model with competitive benchmark performance. |
-| **[froggeric/Qwen-Fixed-Chat-Templates](https://huggingface.co/froggeric/Qwen-Fixed-Chat-Templates)** | froggeric | 460 | 0 | Community utility fixing chat template inconsistencies across Qwen 3.5/3.6 variants for MLX deployment. |
-
-### 🎨 Multimodal & Generation (image, video, audio, text-to-X)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[bytedance-research/Lance](https://huggingface.co/bytedance-research/Lance)** | bytedance-research | 981 | 2,856 | Ambitious any-to-any architecture unifying image generation, video generation, and multimodal understanding in one model. |
-| **[SulphurAI/Sulphur-2-base](https://huggingface.co/SulphurAI/Sulphur-2-base)** | SulphurAI | 1,454 | 1,557,858 | High-quality text-to-video generation with endpoint compatibility; massive download volume indicates production use. |
-| **[circlestone-labs/Anima](https://huggingface.co/circlestone-labs/Anima)** | circlestone-labs | 1,602 | 736,443 | ComfyUI-compatible diffusion model with strong community adoption for creative workflows. |
-| **[openbmb/MiniCPM-V-4.6](https://huggingface.co/openbmb/MiniCPM-V-4.6)** | openbmb | 1,074 | 433,156 | Leading-edge small vision-language model; exceptional performance-to-size ratio for on-device multimodal apps. |
-| **[nvidia/LocateAnything-3B](https://huggingface.co/nvidia/LocateAnything-3B)** | nvidia | 494 | 18,327 | Visual grounding model enabling precise object localization from natural language; strong NVIDIA ecosystem integration. |
-| **[nvidia/PiD](https://huggingface.co/nvidia/PiD)** | nvidia | 192 | 437 | Diffusion-based super-resolution for image enhancement; research-grade quality with practical applications. |
-| **[meituan-longcat/LongCat-Video-Avatar-1.5](https://huggingface.co/meituan-longcat/LongCat-Video-Avatar-1.5)** | meituan-longcat | 411 | 0 | Audio/image/text-to-video avatar generation; Meituan's entry into generative video for virtual presence. |
-| **[microsoft/Lens](https://huggingface.co/microsoft/Lens)** | microsoft | 145 | 1,517 | Text-to-image model with academic backing (arXiv:2605.21573); novel architectural contributions. |
-| **[Supertone/supertonic-3](https://huggingface.co/Supertone/supertonic-3)** | Supertone | 744 | 55,382 | Production-grade Korean/English TTS with ONNX optimization for real-time speech synthesis. |
-| **[NemoStation/Marlin-2B](https://huggingface.co/NemoStation/Marlin-2B)** | NemoStation | 454 | 15,780 | Video-text-to-text model built on Qwen 3.5; specialized for long-form video understanding. |
-
-### 🔧 Specialized Models (code, math, medical, embeddings)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[pyannote/speaker-diarization-3.1](https://huggingface.co/pyannote/speaker-diarization-3.1)** | pyannote | 2,073 | 9,771,170 | Industry-standard speaker diarization with massive production deployment; near 10M downloads signals ubiquity. |
-| **[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)** | openai | 1,570 | 304,691 | OpenAI's first Hugging Face release in years; token-classification for PII detection with Transformers.js edge support. |
-| **[numind/NuExtract3](https://huggingface.co/numind/NuExtract3)** | numind | 203 | 53,338 | Structured information extraction from images and documents; vision-language architecture for enterprise data processing. |
-| **[PaddlePaddle/PaddleOCR-VL-1.6](https://huggingface.co/PaddlePaddle/PaddleOCR-VL-1.6)** | PaddlePaddle | 107 | 2,294 | OCR-optimized vision-language model leveraging ERNIE 4.5; strong Chinese document understanding. |
-
-### 📦 Fine-tunes & Quantizations (community fine-tunes, GGUF, AWQ)
-
-| Model | Author | Likes | Downloads | Why It's Trending |
-|-------|--------|-------|-----------|-------------------|
-| **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)** | HauhauCS | 1,102 | 2,227,885 | Aggressively uncensored MoE fine-tune with enormous download volume; controversial but clearly in high demand. |
-| **[unsloth/Qwen3.6-27B-MTP-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF)** | unsloth | 567 | 877,938 | Unsloth's optimized GGUF with Multi-Token Prediction; exceptional inference speed for local deployment. |
-| **[Jackrong/Qwopus3.6-27B-v2-MTP-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-MTP-GGUF)** | Jackrong | 172 | 105,264 | Community GGUF with MTP support; llama.cpp compatibility for consumer hardware. |
-| **[Jackrong/Qwopus3.6-27B-v2-GGUF](https://huggingface.co/Jackrong/Qwopus3.6-27B-v2-GGUF)** | Jackrong | 186 | 33,167 | Standard GGUF variant of the Qwopus fine-tune; broader compatibility without MTP. |
-| **[LiquidAI/LFM2.5-8B-A1B-GGUF](https://huggingface.co/LiquidAI/LFM2.5-8B-A1B-GGUF)** | LiquidAI | 123 | 23,685 | Official GGUF release from LiquidAI; edge-optimized with llama.cpp integration. |
+- **MoE is becoming mainstream**: From LiquidAI’s 8B‑A1B to Tencent’s Hy‑MT2‑30B‑A3B and the uncensored Qwen3.6 variant, Mixture‑of‑Experts architectures are favored for their ability to deliver large‑model quality with a fraction of the active parameters. This aligns with the industry push toward cost‑e
 
 ---
-
-## 3. Ecosystem Signal
-
-The Qwen 3.6 family has achieved dominant ecosystem momentum, with Alibaba's official releases, community fine-tunes, and third-party quantizations forming a self-reinforcing adoption cycle. This mirrors the Qwen 2.5 phenomenon but at greater scale—five distinct variants appear in this week's top 30 alone. DeepSeek V4 represents the other major gravity well, with Pro and Flash variants capturing nearly 9.5M combined downloads, suggesting enterprises are standardizing on this stack for reasoning workloads.
-
-Open-weight models continue closing the gap with proprietary alternatives, though OpenAI's privacy-filter release is a notable hedge—offering a sanctioned path for sensitive deployments. The quantization ecosystem has matured dramatically: Unsloth and individual contributors like Jackrong now ship optimized GGUFs within 24-48 hours of base model releases, with Multi-Token Prediction becoming a standard optimization. The "uncensored" fine-tune category remains commercially significant despite policy tensions, with HauhauCS's aggressive variant outperforming many official releases in raw downloads.
-
-Most striking is the normalization of native multimodality—vision-language is no longer a separate category but a default capability. ByteDance's Lance pushes further toward true any-to-any architectures, potentially rendering today's pipeline-specific models obsolete.
-
----
-
-## 4. Worth Exploring
-
-**[bytedance-research/Lance](https://huggingface.co/bytedance-research/Lance)** — Lance merits close study as a potential architectural inflection point. Its any-to-any design unifies generation and understanding across modalities in a single weights package, contrasting with the current paradigm of separate models stitched via API. Early adoption here prepares practitioners for where the field is heading rather than where it is.
-
-**[unsloth/Qwen3.6-27B-MTP-GGUF](https://huggingface.co/unsloth/Qwen3.6-27B-MTP-GGUF)** — For practitioners needing local deployment, this represents the current state-of-the-art in efficiency engineering. The Multi-Token Prediction implementation achieves ~2x throughput improvement over standard inference, making a 27B-parameter model viable on consumer GPUs. The 877K downloads suggest the community has already validated its reliability.
-
-**[openai/privacy-filter](https://huggingface.co/openai/privacy-filter)** — Worth studying less for raw capability than for strategic signaling. OpenAI's first HF release with Transformers.js support indicates a genuine pivot toward edge deployment and privacy-preserving architectures. The ONNX export path and permissive licensing suggest this may preview a broader pattern for future OpenAI model distribution.
-
----
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/zhouyuhechuan/agents-radar).*

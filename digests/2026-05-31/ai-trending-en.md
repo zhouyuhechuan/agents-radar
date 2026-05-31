@@ -1,113 +1,107 @@
 # AI Open Source Trends 2026-05-31
 
-> Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-31 00:26 UTC
+> Sources: GitHub Trending + GitHub Search API | Generated: 2026-05-31 06:56 UTC
 
 ---
 
 # AI Open Source Trends Report — 2026-05-31
 
----
+## 1. Today’s Highlights
 
-## 1. Today's Highlights
-
-Today's GitHub trending reveals a **surge in agent harness and optimization tooling**, with three interconnected projects—**ECC** (+908 stars), **harness** (+55 stars), and **anthropics/skills** (+454 stars)—all targeting performance and skill management for Claude Code, Codex, Cursor, and similar agentic coding tools. **Microsoft's MarkItDown** (+2,470 stars) dominates document-to-Markdown conversion, signaling enterprise demand for clean LLM-ready data pipelines. **VoxCPM** (+779 stars) and **MOSS-TTS** highlight continued momentum in open-source speech synthesis, while **liteparse** (+925 stars) from LlamaIndex addresses the critical but underserved document parsing bottleneck in RAG pipelines. Notably, the ecosystem is coalescing around **"agent harness"** as a distinct architectural layer between raw LLM APIs and end-user applications.
-
----
+The open-source AI community is experiencing an explosive wave of **agent-centric tooling**, with Anthropic’s **Claude Code** and the newly public **anthropics/skills** repository driving a surge in agent harnesses, plugin ecosystems, and skill-marketplaces. **MoneyPrinterTurbo** continues its viral run, adding +2,768 stars today for one-click AI video generation. Meanwhile, a new breed of **world model** and **speech synthesis** projects (VoxCPM, MOSS-TTS, stable‑worldmodel) signal a maturing of generative audio and simulation research. The **RAG / vector‑database** domain remains steady, with lightweight parsers (liteparse) and memory layers (mem0, cognee) gaining traction. Overall, the trend is toward **narrow, ready‑to‑use AI agents** that wrap powerful foundational models into specialized workflows.
 
 ## 2. Top Projects by Category
 
 ### 🔧 AI Infrastructure
-
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [microsoft/markitdown](https://github.com/microsoft/markitdown) | ⭐0 (+2,470 today) | Microsoft's official tool for converting Office documents, PDFs, and images to clean Markdown—becoming the de facto preprocessing standard for enterprise RAG pipelines. |
-| [anthropics/claude-code](https://github.com/anthropics/claude-code) | ⭐0 (+592 today) | Anthropic's agentic coding CLI that understands entire codebases; today's skills repo launch suggests rapid ecosystem expansion. |
-| [run-llama/liteparse](https://github.com/run-llama/liteparse) | ⭐0 (+925 today) | Fast Rust-based document parser from LlamaIndex; fills a critical gap in production RAG where parsing speed and accuracy dominate latency. |
-| [cursor/plugins](https://github.com/cursor/plugins) | ⭐0 (+205 today) | Cursor's official plugin spec and reference implementations—validating IDE extensibility as core infrastructure for AI-native development. |
-| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | ⭐7,469 | Modular Rust framework for LLM applications; represents the systems-language shift for performance-critical AI infrastructure. |
-| [vllm-project/vllm](https://github.com/vllm-project/vllm) | ⭐81,448 | High-throughput inference engine; foundational for self-hosted model serving at scale. |
-| [ollama/ollama](https://github.com/ollama/ollama) | ⭐172,680 | The standard for local model execution; today's mention of Kimi-K2.5, GLM-5, MiniMax reflects rapid model diversity expansion. |
+| Project | Stars | Why It Matters Today |
+|---------|-------|----------------------|
+| [ollama/ollama](https://github.com/ollama/ollama) | 172,691 total | The on‑ramp for local LLMs; now supports Kimi‑K2.5, GLM‑5, and more models. |
+| [vllm-project/vllm](https://github.com/vllm-project/vllm) | 81,460 total | High‑throughput inference engine for LLMs – the de‑facto serving layer. |
+| [microsoft/markitdown](https://github.com/microsoft/markitdown) | +2,470 today | Python tool to convert any file/office doc to Markdown – critical for RAG pipelines. |
+| [run-llama/liteparse](https://github.com/run-llama/liteparse) | +925 today | Fast, open‑source document parser written in Rust – a potential replacement for heavier OCR stacks. |
+| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | 4,217 total | Educational course on building LLM inference serving on Apple Silicon – bridges systems engineering and AI. |
+| [galilai-group/stable-pretraining](https://github.com/galilai-group/stable-pretraining) | 239 total | Minimal library for pretraining foundation & world models – research‑grade infrastructure. |
+| [cursor/plugins](https://github.com/cursor/plugins) | +205 today | Cursor’s plugin specification – standardising how AI coding tools extend functionality. |
+| [langchain4j/langchain4j](https://github.com/langchain4j/langchain4j) | 12,155 total | Java’s answer to LangChain: LLM‑powered apps with MCP, agents, and RAG for the JVM. |
 
 ### 🤖 AI Agents / Workflows
-
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [affaan-m/ECC](https://github.com/affaan-m/ECC) | ⭐199,289 (+908 today) | **"Agent harness performance optimization system"**—the most starred agent tooling project today, unifying skills, memory, security, and research-first development across Claude Code, Codex, Cursor, and OpenCode. |
-| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | ⭐173,718 | "The agent that grows with you"—from the Nous collective, representing open-weight agent research at scale. |
-| [revfactory/harness](https://github.com/revfactory/harness) | ⭐0 (+55 today) | Meta-skill framework for designing domain-specific agent teams and generating their operational skills; directly complementary to ECC. |
-| [anthropics/skills](https://github.com/anthropics/skills) | ⭐0 (+454 today) | Anthropic's official public skills repository—legitimizing "skills" as the standardized unit of agent capability exchange. |
-| [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | ⭐0 (+349 today) | Cross-platform plugin (Claude Code, Codex, Cursor) for compound engineering workflows; signals vendor-agnostic agent tooling demand. |
-| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | ⭐63,706 | Educational "nano claude code–like agent harness" built from scratch—democratizing agent architecture understanding. |
-| [browser-use/browser-use](https://github.com/browser-use/browser-use) | ⭐96,315 | Makes websites accessible for AI agents; critical infrastructure for web-grounded agent workflows. |
-| [OpenHands/OpenHands](https://github.com/OpenHands/OpenHands) | ⭐75,429 | AI-driven development platform; OpenDevin's evolution, representing the open alternative to closed coding agents. |
+| Project | Stars | Why It Matters Today |
+|---------|-------|----------------------|
+| [anthropics/claude-code](https://github.com/anthropics/claude-code) | +592 today | Agentic coding tool in the terminal – the flagship product driving today’s agent ecosystem. |
+| [anthropics/skills](https://github.com/anthropics/skills) | +454 today | Public repository for Agent Skills – a marketplace for reusable agent capabilities. |
+| [affaan-m/ECC](https://github.com/affaan-m/ECC) | 199,534 total (+908 today) | “Agent harness performance optimization” – a meta‑skill system for Claude Code, Codex, and Cursor. |
+| [revfactory/harness](https://github.com/revfactory/harness) | +55 today | Designs domain‑specific agent teams and generates skills – a meta‑agent framework. |
+| [EveryInc/compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin) | +349 today | Official plugin for Claude Code, Codex, Cursor, etc. – standardising agent orchestration. |
+| [NousResearch/hermes-agent](https://github.com/NousResearch/hermes-agent) | 173,985 total | “The agent that grows with you” – a popular personal agent framework. |
+| [langgenius/dify](https://github.com/langgenius/dify) | 143,231 total | Production‑ready platform for agentic workflow development – low‑code agent building. |
+| [browser-use/browser-use](https://github.com/browser-use/browser-use) | 96,352 total | Makes websites accessible to AI agents – automating browser tasks via natural language. |
+| [TauricResearch/TradingAgents](https://github.com/TauricResearch/TradingAgents) | 81,077 total | Multi‑agent LLM framework for financial trading – vertical agent specialization. |
+| [shareAI-lab/learn-claude-code](https://github.com/shareAI-lab/learn-claude-code) | 63,749 total | A nano agent harness from scratch – educational deep‑dive into building Claude‑Code‑like capabilities. |
 
 ### 📦 AI Applications
-
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | ⭐0 (+2,768 today) | **Top trending today**: One-click AI-generated short videos using LLMs; exemplifies consumer AI application virality in content creation. |
-| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | ⭐0 (+779 today) | Tokenizer-free TTS for multilingual speech generation and voice cloning; "True-to-Life Cloning" suggests quality breakthroughs. |
-| [OpenMOSS/MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) | ⭐0 (+62 today) | Comprehensive speech/sound generation family covering dialogue, environmental effects, and real-time streaming—positioned for production scenarios. |
-| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | ⭐0 (+469 today) | Self-contained offline survival computer with embedded AI; niche but signals edge/robustness concerns in AI deployment. |
-| [ruvnet/RuView](https://github.com/ruvnet/RuView) | ⭐0 (+655 today) | WiFi signal-based spatial intelligence and vital sign monitoring—ambient AI without cameras, with privacy-preserving applications. |
-| [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) | ⭐0 (+327 today) | End-to-end LLM training tutorial; educational but practically oriented for the growing self-train movement. |
+| Project | Stars | Why It Matters Today |
+|---------|-------|----------------------|
+| [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo) | +2,768 today | AI‑powered short‑video generation – one‑click content creation that’s still trending. |
+| [OpenBMB/VoxCPM](https://github.com/OpenBMB/VoxCPM) | +779 today | Tokenizer‑free TTS for multilingual speech, voice cloning, and creative voice design. |
+| [OpenMOSS/MOSS-TTS](https://github.com/OpenMOSS/MOSS-TTS) | +62 today | Family of speech/sound generation models – covers long‑form speech, dialogue, and real‑time streaming. |
+| [ruvnet/RuView](https://github.com/ruvnet/RuView) | +655 today | Turns WiFi signals into spatial intelligence and vital‑sign monitoring – no cameras needed. |
+| [Crosstalk-Solutions/project-nomad](https://github.com/Crosstalk-Solutions/project-nomad) | +469 today | Offline survival computer with AI – resilience and privacy in a self‑contained device. |
+| [FareedKhan-dev/train-llm-from-scratch](https://github.com/FareedKhan-dev/train-llm-from-scratch) | +327 today | Straightforward guide for training your own LLM – from data to text generation. |
+| [ZhuLinsen/daily_stock_analysis](https://github.com/ZhuLinsen/daily_stock_analysis) | 39,538 total | LLM‑driven stock analysis for A/H/US markets – zero‑cost, scheduled automation. |
 
 ### 🧠 LLMs / Training
-
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [huggingface/transformers](https://github.com/huggingface/transformers) | ⭐161,078 | The model-definition framework; continues to absorb vision, audio, and multimodal capabilities. |
-| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | ⭐71,724 | Unified fine-tuning for 100+ LLMs/VLMs; essential infrastructure for model customization at scale. |
-| [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel) | ⭐0 (+318 today) | Reproducible world model research platform; world models remain the next frontier after LLM capabilities plateau. |
-| [galilai-group/stable-pretraining](https://github.com/galilai-group/stable-pretraining) | ⭐238 | Reliable, minimal pretraining library; paired with world model project, suggests systematic foundation model research tooling. |
-| [skyzh/tiny-llm](https://github.com/skyzh/tiny-llm) | ⭐4,216 | Apple Silicon-optimized inference serving course; education meets edge deployment practicality. |
-| [open-compass/opencompass](https://github.com/open-compass/opencompass) | ⭐7,047 | Comprehensive LLM evaluation platform; critical as model proliferation demands rigorous benchmarking. |
+| Project | Stars | Why It Matters Today |
+|---------|-------|----------------------|
+| [huggingface/transformers](https://github.com/huggingface/transformers) | 161,087 total | Still the de‑facto library for model definition across text, vision, audio, and multimodal. |
+| [hiyouga/LlamaFactory](https://github.com/hiyouga/LlamaFactory) | 71,729 total | Unified fine‑tuning of 100+ LLMs & VLMs – the go‑to for efficient training. |
+| [jingyaogong/minimind](https://github.com/jingyaogong/minimind) | 50,860 total | Train a 64M‑parameter LLM from scratch in 2 hours – democratising pretraining. |
+| [open-compass/opencompass](https://github.com/open-compass/opencompass) | 7,048 total | LLM evaluation platform supporting 100+ datasets – critical for benchmarking. |
+| [0xPlaygrounds/rig](https://github.com/0xPlaygrounds/rig) | 7,468 total | Modular LLM application framework in Rust – performance‑first approach. |
+| [galilai-group/stable-worldmodel](https://github.com/galilai-group/stable-worldmodel) | +318 today | Platform for reproducible world model research – connects reinforcement learning and generative modeling. |
+| [thinkwee/AgentsMeetRL](https://github.com/thinkwee/AgentsMeetRL) | 1,467 total | Awesome list for Agentic RL – bridging reinforcement learning and agent workflows. |
 
 ### 🔍 RAG / Knowledge
-
-| Project | Stars | Description |
-|--------|-------|-------------|
-| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | ⭐81,565 | Leading open-source RAG engine fusing retrieval with agent capabilities; "superior context layer" positioning reflects category evolution. |
-| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | ⭐79,753 | Persistent cross-session memory with AI compression; solves the fundamental statelessness problem in agent interactions. |
-| [mem0ai/mem0](https://github.com/mem0ai/mem0) | ⭐57,159 | Universal memory layer for AI agents; category-defining infrastructure as agents require long-term contextual retention. |
-| [safishamsi/graphify](https://github.com/safishamsi/graphify) | ⭐56,763 | Code-to-knowledge-graph transformation for multiple agent platforms; enables structured reasoning over complex codebases. |
-| [run-llama/llama_index](https://github.com/run-llama/llama_index) | ⭐49,782 | Leading document agent and OCR platform; today's liteparse launch extends parsing capabilities. |
-| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | ⭐35,982 | Simple and fast RAG with EMNLP 2025 recognition; efficiency-focused alternative for resource-constrained deployments. |
-| [VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex) | ⭐32,342 | "Vectorless, Reasoning-based RAG"—challenges embedding-based assumptions with pure reasoning approaches. |
-| [milvus-io/milvus](https://github.com/milvus-io/milvus) | ⭐44,549 | Cloud-native vector database; ANN search at scale for production RAG systems. |
-
----
+| Project | Stars | Why It Matters Today |
+|---------|-------|----------------------|
+| [infiniflow/ragflow](https://github.com/infiniflow/ragflow) | 81,577 total | Leading open‑source RAG engine with agent capabilities – combines retrieval and action. |
+| [milvus-io/milvus](https://github.com/milvus-io/milvus) | 44,550 total | Cloud‑native vector database for scalable ANN search – the backbone of many RAG stacks. |
+| [mem0ai/mem0](https://github.com/mem0ai/mem0) | 57,172 total | Universal memory layer for AI agents – persistent context across sessions. |
+| [HKUDS/LightRAG](https://github.com/HKUDS/LightRAG) | 35,987 total | Simple & fast RAG library (EMNLP 2025) – research‑grade retrieval made practical. |
+| [thedotmack/claude-mem](https://github.com/thedotmack/claude-mem) | 79,796 total | Captures agent session context and injects it into future sessions – solves the memory problem for coding agents. |
+| [PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR) | 79,099 total | Turns images/PDFs into structured data for AI – 100+ language OCR. |
+| [StarTrail-org/LEANN](https://github.com/StarTrail-org/LEANN) | 11,829 total | MLsys 2026 paper: 97% storage savings for RAG on personal devices – efficient private retrieval. |
+| [qdrant/qdrant](https://github.com/qdrant/qdrant) | 31,689 total | High‑performance vector database written in Rust – popular for real‑time AI search. |
 
 ## 3. Trend Signal Analysis
 
-**The "Agent Harness" layer is exploding.** Today's data reveals a clear architectural crystallization: developers are no longer building agents from scratch but optimizing the **harness**—the performance, memory, skills, and security layer that mediates between LLM APIs and productive work. ECC, harness, and anthropic/skills form a triad defining this new category, with cross-platform compatibility (Claude Code, Codex, Cursor, OpenCode, Gemini CLI) as table stakes. This mirrors the 2023-2024 evolution from raw LLM access to orchestration frameworks (LangChain, LlamaIndex) to now **specialized agent optimization**.
+**Agent Harness Explosion**  
+The most pronounced signal today is the rapid proliferation of “agent harness” projects – frameworks that sit on top of agentic coding tools like Claude Code, Codex, and Cursor. Repos such as **ECC** (199k total stars), **compound-engineering-plugin**, **revfactory/harness**, and **anthropics/skills** are creating a meta‑layer for skill definition, performance optimization, and plugin interoperability. This suggests the community is moving beyond single‑agent use cases toward coordinated agent teams and skill marketplaces.
 
-**Rust is penetrating AI infrastructure aggressively.** liteparse, rig, and multiple vector databases (Qdrant, Meilisearch) signal that Python's dominance in AI is being challenged at the performance-critical boundary layers—parsing, inference serving, and search. This isn't replacement but **strategic specialization**: Python for research and orchestration, Rust for production throughput.
+**Vertical AI Applications Surge**  
+Two contrasting verticals are generating high star velocities: **content generation** (MoneyPrinterTurbo at +2,768) and **speech/sound generation** (VoxCPM +779, MOSS‑TTS +62). The former confirms that short‑video AI remains a killer app; the latter signals growing demand for high‑fidelity, multilingual TTS with voice cloning, dialogue, and real‑time capabilities. Additionally, **RuView** (WiFi‑based sensing) and **project‑nomad** (offline AI computer) indicate interest in AI that works without traditional sensor inputs or cloud connectivity.
 
-**Speech synthesis is having a quality inflection.** VoxCPM's "tokenizer-free" approach and MOSS-TTS's comprehensive scenario coverage suggest TTS is moving from "good enough" to production-viable for creative and real-time applications, potentially driven by multimodal model releases demanding audio parity with text and vision.
+**Memory & Persistence as First‑Class Citizens**  
+The RAG category is evolving into “memory for agents.” Projects like **claude‑mem** (79k stars), **mem0** (57k), and **cognee** (17.5k) are not just retrieval tools – they capture session context, compress it, and inject it into future interactions. This aligns with the agent harness trend: agents are only useful if they remember. **LEANN** (97% storage savings) shows that memory efficiency is a priority, especially for on‑device deployments.
 
-The timing aligns with **Claude 4's anticipated capabilities** and the broader industry push toward agentic systems that actually complete tasks. Anthropic's simultaneous claude-code growth and skills repository launch indicates deliberate ecosystem seeding, while the community's rapid embrace of harness optimization suggests current agents are powerful but **friction-heavy**—requiring community innovation to reach reliable productivity.
+**New Technical Directions**
+- **World models** (stable‑worldmodel +318) and **stable‑pretraining** (+239) bring rigorous reproducibility to foundation‑model pretraining and RL‑based simulation.
+- **Tokenizer‑free TTS** (VoxCPM) challenges the traditional text‑to‑speech pipeline.
+- **Rust adoption** is spreading from parsers (liteparse) to vector databases (qdrant) and LLM frameworks (rig), reflecting a community push for performance without sacrificing safety.
 
----
+**Industry Connections**  
+Anthropic’s open‑sourcing of **Claude Code** and the **skills** repository is likely driving the agent harness boom. Combined with OpenAI’s Codex and Cursor’s plugin ecosystem, we are witnessing a multi‑vendor standardisation of how agent behavior is packaged and shared. The rapid star growth of **ECC** and **compound-engineering-plugin** suggests developers are eagerly adopting these cross‑platform agent tools.
 
 ## 4. Community Hot Spots
 
-- **🔥 Agent Harness Optimization (ECC / harness / claude-mem)**
-  Three projects in one day targeting the same problem: agents are capable but unreliable. ECC's 199K stars (including historical growth) and 908 daily additions indicate massive latent demand for performance-tuned agent execution. Developers should watch for emerging standards in skill definitions and memory protocols.
-
-- **📝 Document Preprocessing Pipeline (markitdown + liteparse + PaddleOCR)**
-  Microsoft's official entry into document-to-Markdown conversion, combined with LlamaIndex's Rust parser and PaddleOCR's structured data extraction, signals **RAG input quality** as the next bottleneck after retrieval algorithms. Expect consolidation around clean, fast, multimodal document ingestion.
-
-- **🗣️ Tokenizer-Free TTS (VoxCPM)**
-  The "tokenizer-free" claim challenges conventional speech pipeline architecture. If quality holds at scale, this could disrupt current TTS incumbents and enable more natural voice interfaces for agents. Worth immediate experimentation for voice-enabled applications.
-
-- **🧠 Cross-Platform Agent Skills (anthropics/skills, compound-engineering-plugin)**
-  Anthropic's skills repo and vendor-agnostic plugins suggest **skill portability** is becoming a community expectation. Developers building agent capabilities should prioritize framework-agnostic implementations to capture multi-platform adoption.
-
-- **⚡ "Vectorless" RAG (PageIndex, LightRAG)**
-  Emerging skepticism toward pure embedding-based retrieval, with reasoning-first and graph-based alternatives gaining traction. This challenges assumptions in current RAG architectures and may shift developer investment toward hybrid or alternative retrieval strategies.
+- **Agent Harnesses and Plugins** – Projects like **ECC**, **compound-engineering-plugin**, and **revfactory/harness** are defining the next layer of agent orchestration. Developers should explore them to build reusable skills and multi-agent teams.
+- **Claude Code Ecosystem** – With **anthropics/skills** now public, contributing skills and learning how to extend Claude Code will become a valuable skill. Also check **learn-claude-code** for a tutorial.
+- **Memory for Agents** – **claude‑mem**, **mem0**, and **LEANN** represent critical infrastructure for persistent, context‑aware agents. Expect further consolidation around these memory layers.
+- **Speech & Sound Generation** – **VoxCPM** and **MOSS‑TTS** are pushing boundaries in voice cloning and real‑time streaming. Open‑source alternatives to proprietary TTS APIs are getting production‑ready.
+- **Lightweight Document Parsing** – **liteparse** (Rust) and **markitdown** (Python) are making it trivial to bring real‑world documents into AI pipelines. Combining them with **PaddleOCR** or **LightRAG** enables end‑to‑end document‑to‑knowledge workflows.
 
 ---
 
+*Report generated from GitHub trending (2026‑05‑31) and AI topic search results. All star counts are as observed on the retrieval date.*
+
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/duanyytop/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/zhouyuhechuan/agents-radar).*
