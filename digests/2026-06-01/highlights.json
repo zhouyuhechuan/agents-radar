@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.159修复大量严重Bug",
+      "OpenAI Codex发布rust-v0.136.0-alpha.2",
+      "Gemini CLI密集修复Agent可靠性问题",
+      "Copilot CLI v1.0.57-4修复升级连锁Bug",
+      "Kimi Code CLI新工具API兼容Bug集中",
+      "OpenCode社区庞大功能增强进行中"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.5.31-beta.1~beta.4",
+      "修复代理运行时中断恢复",
+      "Telegram等通道消息投递更稳定",
+      "合并PR强化Docker本地部署",
+      "新增多槽记忆架构",
+      "社区日活跃500条Issue和PR"
+    ],
+    "ai-trending": [
+      "Claude Code开源24小时获489 stars",
+      "从零训练LLM教程斩获626 stars",
+      "MoneyPrinterTurbo短视频生成新增1937 stars",
+      "VoxCPM语音合成克隆新增635 stars",
+      "supermemory轻量级记忆引擎替代RAG",
+      "ollama本地LLM运行工具172k stars"
+    ],
+    "ai-hn": [
+      "AI攻克Erdős数学问题震动数学界",
+      "Rsync项目警告LLM代码污染",
+      "Claude：更少编码，更多测试",
+      "Anthropic公开跨产品安全隔离技术",
+      "Meta AI功能导致用户账户被盗",
+      "Minimax M3在OpenRouter上线"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4503点赞登顶",
+      "Qwen3.6系列占榜单近三分之一",
+      "MiniCPM-V-4.6轻量多模态上榜",
+      "字节跳动Lance全模态任意到任意",
+      "Sulphur-2视频生成模型火热",
+      "GGUF量化版本满足边缘部署需求"
+    ],
+    "ai-community": [
+      "71行代码为Python Agent添加黑盒调试",
+      "Go构建跨平台Claude Code钩子",
+      "Markdown正成为AI应用界面",
+      "Claude Code自动发送每日站会到Slack",
+      "RAG vs Agent决策导致系统崩溃",
+      "Lobste.rs教皇通谕引发AI伦理讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.159 infra release",
+      "OpenAI Codex alpha 2",
+      "Gemini CLI 10 hot issues",
+      "Copilot CLI also active",
+      "Kimi Code carving niche",
+      "Token cost failures widespread"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues, 500 PRs",
+      "4 beta releases today",
+      "Recovery resilience fixes",
+      "Channel stability improvements",
+      "216 issues closed today",
+      "296 PRs merged today"
+    ],
+    "ai-trending": [
+      "claude-code +489 stars today",
+      "VoxCPM tokenizer-free TTS",
+      "MoneyPrinterTurbo +1,937 stars",
+      "train-llm-from-scratch +626",
+      "supermemory memory service",
+      "mem0 57K total stars"
+    ],
+    "ai-hn": [
+      "Debate LLM-generated commits",
+      "AI for testing, not coding",
+      "Meta AI enables Instagram theft",
+      "Connecticut signs first AI law",
+      "Erdos problem solved by AI",
+      "Agentpack and Claude Code buzz"
+    ],
+    "ai-hf": [
+      "DeepSeek V4 Pro 4,503 likes",
+      "Qwen3.6-27B 1,552 likes",
+      "Lance any-to-any model",
+      "Nvidia LocateAnything-3B",
+      "Sulphur-2 text-to-video",
+      "OpenAI privacy filter"
+    ],
+    "ai-community": [
+      "Agent debugging with DuckDB",
+      "Cross-platform Claude hooks",
+      "Markdown as AI app interface",
+      "Vatican encyclical on AI",
+      "Claude vs Gemini security",
+      "71-line black box agent"
+    ]
+  }
+}
