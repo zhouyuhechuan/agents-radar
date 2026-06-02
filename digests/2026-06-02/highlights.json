@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.160，修复数据安全问题",
+      "OpenAI Codex v0.136.0 发布，聚焦 Windows 稳定性",
+      "Gemini CLI v0.45.0-nightly 发布，修复 Agent 挂起",
+      "GitHub Copilot CLI v1.0.57，复制功能回归引发失望",
+      "OpenCode Desktop 版 Bug 潮，社区活跃度最高",
+      "Qwen Code v0.17.0-nightly，优化 MCP 生态与超时"
+    ],
+    "ai-agents": [
+      "OpenClaw 处理 463 Issue 和 500 PR，高活跃度",
+      "发布 v2026.6.1-beta.1/2，修复运行时稳定性",
+      "修复 Codex OAuth 刷新与中断恢复问题",
+      "多渠道消息去重：Telegram、QQBot、Feishu",
+      "社区关注 Token 用量膨胀与本地模型支持",
+      "长期待处理的 Multi-Agent 协作 RFC 仍未闭合"
+    ],
+    "ai-trending": [
+      "TradingAgents +299 stars，多智能体金融交易框架",
+      "Hermes WebUI 今日 +945 stars，随行智能体",
+      "MoneyPrinterTurbo +3375 stars 领跑视频生成",
+      "VoxCPM 开源，实现无分词器多语言语音克隆",
+      "Ollama 172k stars，本地运行 LLM 最流行工具",
+      "Firecrawl 127k stars，专为 AI agent 设计的网页 API"
+    ],
+    "ai-web": [
+      "Anthropic 启动 IPO，估值 9650 亿美元",
+      "完成 650 亿美元 H 轮融资，年化收入超 470 亿",
+      "发布 Claude Opus 4.8，强化工程与 Agent 能力",
+      "OpenAI 前沿模型和 Codex 现已上架 AWS",
+      "Claude 4.8 引入动态工作流与推理预算控制",
+      "OpenAI 深化云合作，应对 Anthropic 竞争"
+    ],
+    "ai-hn": [
+      "Anthropic 秘密提交 S-1，社区热议 IPO 影响",
+      "佛罗里达起诉 OpenAI 和 Altman，指控教唆枪击",
+      "OpenAI 模型上架 AWS，关注云厂商锁定效应",
+      "GitHub Copilot 转向按量计费，开发者不满",
+      "Alphabet 计划融资 800 亿美元用于 AI 支出",
+      "经济学人质疑高估值 AI 公司 IPO 后盈利压力"
+    ],
+    "ai-arxiv": [
+      "首次建模 CoT 推理熵动力学，揭示两阶段结构",
+      "2-bit 量化推理模型总耗时反增，提出恢复策略",
+      "原型 SAE 稳定性被质疑，实为初始化与度量造伪",
+      "SentGuard 句子级流式护栏，实现细粒度干预",
+      "CARTE 基准评估 LLM 对法国地域知识掌握",
+      "多智能体技能自演进，从网络指南自动蒸馏技能"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 点赞 4534，下载 585 万领跑",
+      "Qwen3.6-27B 下载突破 500 万，最热多模态模型",
+      "MiniCPM5-1B 性能接近 7B，专为端侧推理设计",
+      "OpenAI 开源隐私过滤模型 privacy-filter",
+      "Qwen3.6 量化版登陆 NVIDIA，单卡部署大模型",
+      "SulphurAI text-to-video 下载近 166 万"
+    ],
+    "ai-community": [
+      "Vibe coding 反思：非技术建造者需清晰思维",
+      "AI 生成代码臃肿去胖：给出具体策略",
+      "自愈系统 30 天修复 115 个 PR，自动化运维",
+      "MCP 服务器采用率低：缺乏第二次安装体验",
+      "AI Agent 成为 C2 服务器，安全风险引热议",
+      "Claude Mythos vs Opus 对比，社区热烈讨论"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code has 50+ hot issues",
+      "MCP integration commoditized",
+      "Demand for local model support",
+      "Cost transparency issues persist",
+      "Safety guardrails emphasized",
+      "Gemini CLI and Kimi Code CLI"
+    ],
+    "ai-agents": [
+      "462 issues, 500 PRs updated",
+      "Two beta releases v2026.6.1",
+      "Focus on runtime reliability",
+      "Codex runtime stalls reported",
+      "Session duplication bugs fixed",
+      "Telegram bot-to-bot capabilities"
+    ],
+    "ai-trending": [
+      "MoneyPrinterTurbo +3375 stars",
+      "markitdown +3034 stars",
+      "supermemory +647 stars",
+      "Agentic toolchains trending",
+      "Memory persistence for agents",
+      "oh-my-pi AI coding agent"
+    ],
+    "ai-web": [
+      "Anthropic files S-1 for IPO",
+      "$65B Series H at $965B valuation",
+      "Claude Opus 4.8 released",
+      "OpenAI frontier models on AWS",
+      "Anthropic commercialization shift",
+      "OpenAI cloud distribution strategy"
+    ],
+    "ai-hn": [
+      "Anthropic S-1 filing (458 pts)",
+      "Florida sues OpenAI (184 pts)",
+      "Stanford AI guidelines (334 pts)",
+      "GitHub Copilot pricing anger",
+      "OpenAI AWS availability debated",
+      "Community split on governance"
+    ],
+    "ai-arxiv": [
+      "Block diffusion speculative decoding",
+      "SentGuard sentence-level guardrails",
+      "HMPO chain-of-thought compression",
+      "PlanarBench spatial reasoning",
+      "CARTE French knowledge benchmark",
+      "AutoMedBench medical research"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,534 likes",
+      "Qwen3.6 ecosystem proliferates",
+      "MoE trend continues",
+      "Hy-MT2 translation series",
+      "OpenAI privacy filter",
+      "pyannote speaker diarization"
+    ],
+    "ai-community": [
+      "Debloating AI-grown codebase (12 reactions)",
+      "$660K AI platform rollback disaster",
+      "Hermes Agent Kanban",
+      "Claude Mythos vs Opus 4.8",
+      "Post-training deep dive on Lobste.rs",
+      "From vibe coding to clear thinking"
+    ]
+  }
+}
