@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.161 发布，社区10个热点Issue",
+      "Gemini CLI v0.46.0-preview.0 版本更新",
+      "OpenAI Codex v0.137.0-alpha.4 有10个重要PR",
+      "Kimi Code CLI 过去24小时无任何活动",
+      "GitHub Copilot CLI v1.0.59 发布但PR为零",
+      "deepseek-ai/DeepSeek-V4-Pro 登顶 Hugging Face"
+    ],
+    "ai-agents": [
+      "OpenClaw 24小时产生429条Issue和500条PR",
+      "Session写锁问题添加看门狗机制修复",
+      "WebChat流式消息消失回归问题已修复",
+      "飞书渠道增加速率限制重试逻辑",
+      "OpenClaw无新版本发布，处于维护攻坚期",
+      "多个P1/P2稳定性问题待修复"
+    ],
+    "ai-trending": [
+      "微软markitdown今日获3618星，AI数据管道必备",
+      "headroom可减少60-95% Token消耗",
+      "ECC专注优化Agent性能，社区热度极高",
+      "Ollama已支持Kimi、DeepSeek、Qwen模型",
+      "NousResearch/hermes-agent持续进化能力突出",
+      "langgenius/dify成为复杂Agent应用标准平台"
+    ],
+    "ai-web": [
+      "Project Glasswing从50家扩展到200家合作伙伴",
+      "早期合作伙伴发现超10000个高危漏洞",
+      "Claude Mythos Preview发现高危漏洞",
+      "OpenAI将Codex嵌入各角色工作流",
+      "OpenAI发布青年安全全球领导力倡议",
+      "Anthropic聚焦关键基础设施安全审计"
+    ],
+    "ai-hn": [
+      "Stanford研究：AI在法律分析超越法学教授",
+      "Anthropic IPO传闻引热议",
+      "Project Glasswing扩展至200家组织",
+      "Claude Mythos部署15国",
+      "超六成用户向AI寻求心理支持",
+      "Claude社会模拟最安全，Grok暴力失控"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4577赞，下载量582万",
+      "Qwen3.6-27B下载量突破500万",
+      "Nvidia发布LocateAnything-3B目标定位模型",
+      "Sulphur-2等视频生成模型齐上榜",
+      "LiquidAI LFM2.5-8B-A1B激活仅1B参数",
+      "极端三元量化1.58-bit首次进入热门视线"
+    ],
+    "ai-community": [
+      "AI Agent因速率限制失败而非幻觉",
+      "AI Native DevCon聚焦企业级Agent落地",
+      "AI编码神话反讽：6小时调试一行代码",
+      "知识蒸馏项目：7B教师输给2B学生",
+      "开源AI团队被新CTO烧800万美元的故事",
+      "Google NotebookLM威胁整个行业"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Voice interfaces emerging as differentiator",
+      "AST-aware code understanding competitive",
+      "Enterprise auth, sandboxing, approval gating",
+      "Rapid maturation with divergent architectures",
+      "No production-grade multi-hour workflows",
+      "Claude Code, Codex, Gemini CLI active"
+    ],
+    "ai-agents": [
+      "OpenClaw: 429 issues, 500 PRs in 24h",
+      "No new releases, stabilization phase",
+      "Regressions from 2026.5.22/5.27 releases",
+      "109 PRs merged/closed in last 24h",
+      "UI/skills toggle stability fixes merged",
+      "Community reports session-state regressions"
+    ],
+    "ai-trending": [
+      "markitdown +3,618 stars for doc conversion",
+      "ECC and hermes-webui extend coding agents",
+      "headroom cuts RAG tokens by 60-95%",
+      "Agent plumbing projects exploding in volume",
+      "vllm and ollama dominate inference serving",
+      "Rig for Rust LLM apps gaining traction"
+    ],
+    "ai-web": [
+      "Project Glasswing expands to ~200 organizations",
+      "Focus on critical infrastructure sectors",
+      "10,000+ high-severity security flaws found",
+      "Government-aligned security partnership",
+      "OpenAI two pages with metadata only",
+      "Anthropic security collaboration grows"
+    ],
+    "ai-hn": [
+      "Anthropic IPO sparks valuation debate",
+      "AI outperforms law professors in study",
+      "Michael Burry skeptical of trillion-dollar AI",
+      "GPT/Claude subvert shutdown raises safety",
+      "AI mental health adoption raises ethics",
+      "Community tired of AI-generated spam"
+    ],
+    "ai-arxiv": [
+      "Neuron-level scaling laws from Dravid et al.",
+      "Language models use brittle number heuristics",
+      "Skill-RM unifies evaluation criteria",
+      "AI-adaptive computer worm research",
+      "Consistency training can entrench misalignment",
+      "RL advances with rubric-based methods"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,577 likes, 5.8M downloads",
+      "Qwen3.6-27B leads vision-language tasks",
+      "bytedance-research Lance any-to-any multimodal",
+      "openai/privacy-filter token classification",
+      "Sulphur-2-base text-to-video trending",
+      "GGUF and exotic quantizations maturing"
+    ],
+    "ai-community": [
+      "Rate limits bigger problem than hallucination",
+      "AI-assisted coding leads to deep debugging",
+      "Developer consensus: reliability is key",
+      "Agent-first operating system debated",
+      "7B vision model distilled to 2B better",
+      "Memory management and drift problematic"
+    ]
+  }
+}
