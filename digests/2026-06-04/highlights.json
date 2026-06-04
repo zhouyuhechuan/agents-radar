@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex #14593获262赞597评论",
+      "Claude Code v2.1.162发布，付费封号事件引热议",
+      "Kimi Code CLI滚动Bug成评论最多",
+      "DeepSeek TUI更名为CodeWhale",
+      "Qwen Code v0.17.1发布",
+      "Gemini CLI v0.46.0-preview.1发布"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.2-beta.1发布",
+      "插件安装迁移至Operator策略",
+      "Agent中断恢复能力增强",
+      "94个PR合并，控制平面新增Tranche A/B",
+      "SQLite迁移讨论成为焦点",
+      "心跳隔离模式回归讨论"
+    ],
+    "ai-trending": [
+      "headroom Token压缩工具今日获3530星",
+      "ECC Agent Harness获2141星",
+      "hermes-agent获1735星",
+      "vllm推理引擎81.9k星持续领先",
+      "dify可视化平台143k星",
+      "atomic-agents多模态Agent框架"
+    ],
+    "ai-web": [
+      "Anthropic披露Claude跨产品安全隔离",
+      "首次公开Claude Mythos Preview被拒",
+      "AI网络攻击图谱发布",
+      "合作伙伴网络升级",
+      "OpenAI仅有GPT Rosalind元数据更新",
+      "Anthropic工程博客里程碑"
+    ],
+    "ai-hn": [
+      "1500美元测试LLM黑应用获64分",
+      "Mnemo本地记忆层开源30分",
+      "Claude Opus 4.8空消息生成长回复",
+      "Gemma 4 12B可在16GB笔记本运行",
+      "MisoTTS情感语音模型发布",
+      "Agent Browser Shield安全工具"
+    ],
+    "ai-arxiv": [
+      "STRIDE训练数据归因方法",
+      "StreamMA多智能体流式通信",
+      "AutoLab长周期任务基准",
+      "失败推理轨迹价值研究",
+      "RISC自一致性排序提升准确率",
+      "Validity Threats基础模型批判"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro下载581万",
+      "DeepSeek-V4-Flash下载354万",
+      "Qwen3.6-27B下载538万",
+      "MiniCPM5-1B极致轻量模型",
+      "SulphurAI视频生成模型",
+      "JetBrains Mellum2-12B思考模型"
+    ],
+    "ai-community": [
+      "开发者因公司花47万AI拒加薪辞职",
+      "AI编码速度是贷款44%修复bug",
+      "Docker沙箱安全运行AI Agent",
+      "5种多Agent协作模式",
+      "让代码库适配AI Agent",
+      "API设计陷阱与修复"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem maturation under strain",
+      "Enterprise vs consumer bifurcation",
+      "Model-provider lock-in fatigue growing",
+      "Session continuity universal pain point",
+      "Windows/keyboard layout regressions persist",
+      "Kimi Code and DeepSeek TUI focus on polish"
+    ],
+    "ai-agents": [
+      "500 issues and 500 PRs in 24h",
+      "Three releases today, including beta",
+      "383 open issues, 406 open PRs",
+      "Plugin install policy changed to operator",
+      "P1 regression and session issues open",
+      "Community double-digit comments on pain points"
+    ],
+    "ai-trending": [
+      "Agent harnesses and memory layers booming",
+      "headroom compresses tokens 60-95%",
+      "headroom gained 3,530 stars today",
+      "markitdown converts docs to Markdown",
+      "Scrapling adaptive web scraping framework",
+      "airllm runs 70B on 4GB GPU"
+    ],
+    "ai-web": [
+      "Claude model deemed too dangerous to ship",
+      "832 banned accounts mapped to MITRE ATT&CK",
+      "Claude Partner Network exceeds 40,000",
+      "Accenture trained 30,000 on Claude",
+      "Deloitte enabled 470,000 users",
+      "OpenAI content metadata-only"
+    ],
+    "ai-hn": [
+      "Anthropic deep-dive on Claude containment",
+      "$1,500 LLM penetration testing experiment",
+      "Google Gemma 4 12B for laptops",
+      "YC-backed Hyper startup for agentic dev",
+      "UC Berkeley: soaring failure rates from AI",
+      "MisoTTS emotive speech model"
+    ],
+    "ai-arxiv": [
+      "STRIDE trains attribution via sparse recovery",
+      "Repairable arbitration in audio-language models",
+      "Multi-agent streaming communication innovation",
+      "Game-theoretic agent interaction policies",
+      "Strabo declarative protocol specification",
+      "Validity threats in foundation model research"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4.6k likes, 5.8M downloads",
+      "Qwen3.6 MoE family trending",
+      "NVIDIA Cosmos3 text-to-video suite",
+      "Google Gemma-4-12B any-to-any pipeline",
+      "GGUF and NVFP4 quantized versions popular",
+      "LiquidAI LFM2.5-8B-A1B for on-device"
+    ],
+    "ai-community": [
+      "Post-training called real differentiator",
+      "AI coding speedup is a loan metaphor",
+      "44¢ per token dollar fixes AI bugs",
+      "Docker sandboxes for safe agents",
+      "Every tool has coding agent debate",
+      "Non-deterministic failures and token costs"
+    ]
+  }
+}
