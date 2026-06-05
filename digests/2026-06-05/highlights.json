@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.163 发布，社区热度极高",
+      "OpenAI Codex 发布 4 个 Rust Alpha 版",
+      "Gemini CLI v0.45.1 发布",
+      "GitHub Copilot CLI v1.0.60-0 发布",
+      "Pi (pi-mono) v0.78.1 发布",
+      "Qwen Code v0.17.1-nightly 发布"
+    ],
+    "ai-agents": [
+      "OpenClaw 今日处理 500 Issues 和 500 PRs",
+      "待合并 PR 积压 391 条，审查资源面临瓶颈",
+      "多信源通道消息丢失问题修复进行中",
+      "CI 安全加固 PR #90287 已合并",
+      "会话状态重置修复 PR #90514 准备审查",
+      "飞书频道 /compact 命令修复 PR #90212"
+    ],
+    "ai-trending": [
+      "headroom 压缩 token 95%，今日 +3142 stars",
+      "NousResearch/hermes-agent 获 +1913 stars",
+      "ECC 代理性能优化系统 +1750 stars",
+      "GitHub Copilot SDK 发布，集成 Agent 能力",
+      "vllm 81.9k stars，高性能推理引擎",
+      "ollama 173.2k stars，一键本地运行大模型"
+    ],
+    "ai-web": [
+      "Anthropic 连续两周无更新，可能蓄力重大发布",
+      "OpenAI 发布 'Chatgpt Memory Dreaming' 三篇新页面",
+      "标题暗示记忆功能引入回放、联想机制",
+      "结合 5 月《ChatGPT Memory & Recall v2》技术报告",
+      "页面仅元数据可获取，无正文内容",
+      "或为多版本草稿测试或 A/B 部署"
+    ],
+    "ai-hn": [
+      "Anthropic 警告递归自我改进风险，345 分 462 评论",
+      "前 Google AI 伦理研究员警告被验证引热议",
+      "华为开源 KVarN KV 缓存量化工具获 116 分",
+      "Anthropic 发布开源漏洞发现框架获 283 分",
+      "Boxes.dev 云端运行 Claude Code 和 Codex",
+      "AI Agent 生产失败原因总结引发深度讨论"
+    ],
+    "ai-community": [
+      "AI 代理生产失败原因总结获 59 赞",
+      "Headroom 工具减少 95% token 消耗",
+      "GitHub Copilot 新计费模式 24 倍价差",
+      "CostGuard 实时断路器防止 AI 支出失控",
+      "AI Agent 花 $200 做 $2 任务案例",
+      "MCP 协议高频出现，架构升级趋势明显"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.163 released",
+      "OpenAI Codex: 4 alpha releases",
+      "Gemini CLI fixes SSRF and CJK",
+      "Demand for universal AGENTS.md config",
+      "Platform parity push for Windows/Linux",
+      "MCP-based tool integration trending"
+    ],
+    "ai-agents": [
+      "OpenClaw merged 109 PRs today",
+      "SQLite session migration in progress",
+      "Codex runtime parity effort critical",
+      "350 open issues, 150 closed",
+      "Maintenance bottleneck with clawsweeper",
+      "No new releases; regressions in 2026.6.1"
+    ],
+    "ai-trending": [
+      "headroom +3,142 stars, 95% token cut",
+      "hermes-agent +1,913 stars today",
+      "ECC agent harness +1,750 stars",
+      "Open-LLM-VTuber consumer AI surge",
+      "NVIDIA cosmos Physical AI push steady",
+      "vllm still top self-hosted inference"
+    ],
+    "ai-web": [
+      "OpenAI 'Chatgpt Memory Dreaming' anomaly",
+      "Same URL appears three times",
+      "No article text retrievable",
+      "Anthropic published zero new articles",
+      "OpenAI testing persistent memory feature",
+      "Anthropic silence continues pattern"
+    ],
+    "ai-hn": [
+      "Anthropic RSI paper sparks fierce debate",
+      "NSA using Anthropic Mythos model",
+      "Timnit Gebru 2020 warnings validated",
+      "KVarN KV-cache quantization from Huawei",
+      "462 comments on recursive self-improvement",
+      "Existential risk vs near-term practicality"
+    ],
+    "ai-community": [
+      "AI agents fail due to infrastructure",
+      "AI gateways pattern for LLM calls",
+      "Headroom cuts token usage 95%",
+      "GitHub Copilot 24x price gap shock",
+      "RadixAttention distributed attention",
+      "Thunderbolt InfiniBand hardware setup"
+    ]
+  }
+}
