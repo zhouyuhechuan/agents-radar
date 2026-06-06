@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 24h内发布3个版本修复OOM问题",
+      "OpenAI Codex 单日10个PR，社区活跃度极高",
+      "Gemini CLI 发布nightly/preview/patch三个版本",
+      "Copilot CLI v1.0.60发布，但PR数为零引担忧",
+      "Kimi Code CLI 相对沉寂，仅2个Issue",
+      "Pi 工具12个PR中10个已合并，社区协作高效"
+    ],
+    "ai-agents": [
+      "OpenClaw 24h内产生950+ Issue/PR互动",
+      "P1 Bug：Coding Agent不完成任务、性能退化",
+      "PR #90748修复记忆状态报告空白模型Bug",
+      "PR #90736修复macOS节点静默重连问题",
+      "PR #90773修复自动压缩丢失写入Bug",
+      "364条PR待合并，项目维护效能承压"
+    ],
+    "ai-trending": [
+      "Hermes-Agent单日+1845星，登顶热榜冠军",
+      "ECC工具单日+1361星，兼容Claude Code等主流工具",
+      "Headroom项目单日新增近2500星，LLM压缩优化爆火",
+      "Open-Notebook开源NotebookLM替代方案首次入榜",
+      "NVIDIA Cosmos世界模型平台进入热榜",
+      "Ollama持续领跑，本地运行K2.6等模型最简方案"
+    ],
+    "ai-web": [
+      "Anthropic一天发布16篇新内容，密度极高",
+      "工程博客透露Claude Mythos Preview因风险过高暂缓发布",
+      "‘爆炸半径’概念成关键，工程目标转向安全围栏",
+      "研究：Claude学化学，从文本转向科学仪器数据",
+      "实证：Claude Code连续自主运行时间从25增至45分钟",
+      "经验用户‘全自动批准率’从20%升至40%但干预更频繁"
+    ],
+    "ai-hn": [
+      "Claude生成rsync代码引入Bug，引发317分热议",
+      "Anthropic同时面对宕机、暂停AI呼吁、发现Zcash漏洞",
+      "‘为AI写文档’成为开发者新习惯讨论焦点",
+      "Show HN：Claude Code集群规模化运营经验分享",
+      "MLX vs Llama.cpp跑Gemma 4 12B性能对比实测",
+      "微软AI助手策略和OpenAI与政府关系成关注热点"
+    ],
+    "ai-arxiv": [
+      "TailLoR提出低秩更新缓解持续学习遗忘问题",
+      "PC Layer用多项式预条件提升LLM预训练质量",
+      "DoPr优化框架直接改进测试时生成性能",
+      "HANDOFF框架用蒸馏教师模型控制类人机器人全身",
+      "Reinforcement Learning论文探索代码生成新路径",
+      "多篇论文聚焦智能体协作心智模型与评估方法"
+    ],
+    "ai-community": [
+      "Gemma 4 12B可在笔记本上运行，免编码器设计",
+      "AI Agent安全引关注：推理窃取与拒绝钱包攻击",
+      "MCP协议被质疑‘过度工程化’，安全层设计成焦点",
+      "开发者分享：添加预处理步骤后Claude Code成本降62%",
+      "微软MAI-Thinking-1推理模型解读",
+      "多智能体运行时隔离与数据泄漏经验分享"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Kimi Code CLI transitioning to kimi-code",
+      "Multi-agent orchestration is dominant trend",
+      "Windows/WSL2 performance remains pain point",
+      "Community tools push rapid feature innovation",
+      "Platform tools focus on enterprise readiness",
+      "Claude Code Skills repo now available"
+    ],
+    "ai-agents": [
+      "OpenClaw: 467 issues updated in 24 hours",
+      "OpenClaw: 136 pull requests merged/closed",
+      "Regression fixes dominate OpenClaw activity",
+      "P1 bugs reported for message loss",
+      "No new OpenClaw releases today",
+      "Intense maintenance across 13 projects"
+    ],
+    "ai-trending": [
+      "headroom token compression +2473 stars",
+      "NousResearch/hermes-agent +1845 stars",
+      "lfnovo/open-notebook +1152 stars",
+      "Agent-native infrastructure trend emerges",
+      "NVIDIA/cosmos +479 stars for Physical AI",
+      "GitHub Copilot SDK officially released"
+    ],
+    "ai-web": [
+      "Anthropic reveals Claude containment architecture",
+      "16 articles published in single day",
+      "OpenAI published zero articles today",
+      "Reward hacking research paper released",
+      "Natural Language Autoencoders interpretability",
+      "Chemistry fine-tuning of Claude shown"
+    ],
+    "ai-hn": [
+      "Claude bugs in rsync sparked 328 comments",
+      "Anthropic requests global AI development freeze",
+      "Microsoft Scout addiction concerns raised",
+      "YC CEO claims 37,000 AI code lines per day",
+      "Programmers write docs for Claude not humans",
+      "Zcash vulnerability discovered by Claude"
+    ],
+    "ai-arxiv": [
+      "TailLoR protects principal components in learning",
+      "You Only Index Once for sparse attention",
+      "PC Layer preconditioning improves pre-training",
+      "Latent reasoning with normalizing flows",
+      "Agent memory for long-horizon workloads",
+      "Double preconditioning techniques emerge"
+    ],
+    "ai-community": [
+      "Inference theft and MCP security top concerns",
+      "Backlash against hidden costs of vibecoding",
+      "Gemma 4 12B brings multimodal to laptop",
+      "Smart caching cut AI costs by 62%",
+      "Auditing MCP Server Security attack surface",
+      "Post-training optimization focus on Lobste.rs"
+    ]
+  }
+}
