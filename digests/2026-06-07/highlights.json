@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.168 发布，社区响应极高，Issue点赞97",
+      "OpenAI Codex rust-v0.138.0-alpha.6，回归Bug引发关注",
+      "Qwen Code v0.17.1-nightly，P1紧急修复",
+      "DeepSeek TUI 冲刺v0.9.0，讨论热烈",
+      "MCP OAuth重复认证、SSE规范问题突出",
+      "自主代理稳定性成为全行业焦点"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布v2026.6.5-beta.2，修复QQ机器人推理泄露",
+      "MCP工具结果格式化增强，稳定性提升",
+      "代理模型目录继承PR修复运行时模型错误",
+      "会话清理策略减少资源占用",
+      "Google/Vertex AI支持持续推进",
+      "社区对2026.6.1版Bug讨论激烈"
+    ],
+    "ai-trending": [
+      "MemPalace 今日涨星446，挑战AI记忆层标准",
+      "CopilotKit 今日涨星631，定义Agent UI交互",
+      "Agent-Reach 零API费用集成Twitter等平台",
+      "superpowers 涨星700，智能体技能框架爆火",
+      "微软开源VibeVoice语音AI工具",
+      "vllm 和 langchain 稳居基础设施前列"
+    ],
+    "ai-hn": [
+      "S&P 500拒绝未盈利AI巨头，AI泡沫争论激烈",
+      "Meta确认数千Insta账户因AI聊天机器人漏洞被黑",
+      "OpenAI Lockdown Mode 引社区对实用性质疑",
+      "AI记忆95%错误率新证据加剧能力怀疑论",
+      "法律教授更青睐AI回答，引发教育界讨论",
+      "Claude训练为化学助手，展示科学微调潜力"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 点赞4681，下载551万，社区最热",
+      "Gemma-4-12B 系列原生多模态，量化版位列第三",
+      "英伟达Cosmos3视频生成家族集中爆发",
+      "LocateAnything-3B 定位模型上线",
+      "GGUF和NVFP4量化格式成主流",
+      "Unsloth微调版Qwen3.6-35B下载量极高"
+    ],
+    "ai-community": [
+      "AI Slop成软件工程新问题，需代码审查新标准",
+      "aislop：AI生成代码质量门禁工具发布",
+      "Agentsync：Git化AI代理配置版本管理",
+      "碳感知GPU训练教程，降低ML碳排放",
+      "生产代理三要素：记忆、安全、失败恢复",
+      "AI生成代码安全漏洞引社区担忧"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.168 released",
+      "OpenCode aggressive refactoring cadence",
+      "Cross-tool convergence on MCP and agents",
+      "Highest engagement on Claude Code (97👍)",
+      "OpenAI Codex rust-v0.138.0 out",
+      "Community pushes toward autonomous agents"
+    ],
+    "ai-agents": [
+      "OpenClaw: 294 issues, 500 PRs in 24h",
+      "Two new beta releases: v2026.6.5-beta",
+      "Critical QQBot thinking-content leak fix",
+      "MCP tool result coercion improvements",
+      "High community engagement with bugs",
+      "Regressions in ChatGPT transport and Codex"
+    ],
+    "ai-trending": [
+      "open-notebook +794 stars today",
+      "Agent-Reach +683 stars, free social access",
+      "CopilotKit +631 stars, leading UI stack",
+      "obra/superpowers +700 stars, skills framework",
+      "MemPalace +446 stars, memory system",
+      "PaddleOCR +433 stars for PDF-to-LLM"
+    ],
+    "ai-hn": [
+      "S&P 500 rejects SpaceX, OpenAI, Anthropic",
+      "Meta: thousands of Instagram accounts hacked via AI",
+      "OpenAI Lockdown Mode against prompt injection",
+      "Paper: 95% error rate in AI memory systems",
+      "Anthropic makes Claude a chemist",
+      "Gwern explores human-like neural nets"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,681 weekly likes, 5.5M downloads",
+      "Nvidia: LocateAnything-3B, Cosmos3, Nemotron-3 Ultra",
+      "Video models SulphurAI and Bernini-R trending",
+      "Google Gemma-4 multimodal family with quantized",
+      "Audio advances: Nvidia ASR, Boson TTS, Magenta",
+      "LiquidAI LFM2.5-8B-A1B with 533 likes"
+    ],
+    "ai-community": [
+      "Dev skepticism of AI slop in pull requests",
+      "Carbon-aware GPU scheduling for ML training",
+      "AgentSync versions AI agent configs like code",
+      "Post-training data differentiates LLM behavior",
+      "Nature: models transmit traits via hidden signals",
+      "Runtime evaluation as alignment enforcement"
+    ]
+  }
+}
