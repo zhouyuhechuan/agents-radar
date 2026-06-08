@@ -1,0 +1,94 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code用户限制讨论近1500条",
+      "OpenAI Codex PR合并活跃",
+      "Gemini CLI PR合并最活跃",
+      "Kimi Code迁移过渡期Bug集中",
+      "Qwen Code发布Nightly版本",
+      "Pi PR合并效率高快速响应"
+    ],
+    "ai-agents": [
+      "OpenClaw高产出但审核瓶颈",
+      "修复session重放Anthropic报错",
+      "修复长消息截断问题",
+      "修复网关重启会话丢失",
+      "更新hono依赖修复4个漏洞",
+      "新增agentRuntime元数据"
+    ],
+    "ai-trending": [
+      "turbovec 1554星登顶今日增幅",
+      "hermes-agent +1112 star",
+      "last30days-skill +1111星",
+      "openai/plugins +262星",
+      "goose +322星可扩展Agent框架",
+      "llama.cpp +158星本地推理标杆"
+    ],
+    "ai-hn": [
+      "Anthropic拒出Linux客户端468分",
+      "Lathe项目用LLM引导学习获254分",
+      "Nightwatch开源只读AI SRE",
+      "VibeOS自称首个AI原生OS",
+      "MoE专家选择泄露信息研究",
+      "数据中心耗水环境担忧持续"
+    ],
+    "ai-community": [
+      "VP盲目信任AI自测试损失280万美元",
+      "8x生产力神话被40年老兵驳斥",
+      "AI代理需设停止标志而非指令",
+      "幻觉检测应是基础设施问题",
+      "审计日志与可采信证据差距",
+      "多代理工作流执行安全危机"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Compaction crisis affects Claude, Gemini, Copilot, Pi",
+      "Declarative agent definitions from Qwen, DeepSeek",
+      "Session persistence across devices in Kimi, Pi",
+      "Usage-limit bugs and billing surprises erode trust",
+      "Newer entrants Qwen Code, Pi show faster iteration",
+      "Linux desktop and Windows sandbox gaps remain"
+    ],
+    "ai-agents": [
+      "OpenClaw: 295 issues, 500 PRs in 24h",
+      "115 issues closed, 166 PRs merged",
+      "Persistent security-critical bugs remain open",
+      "Two new security-tagged issues filed today",
+      "P1 regressions under active stress",
+      "No new releases published today"
+    ],
+    "ai-trending": [
+      "turbovec Rust vector index gains 1,554 stars",
+      "Hermes agent harness from NousResearch +1,112",
+      "Skill packages for fine-grained agent controls",
+      "llama.cpp steady at +158 stars",
+      "Microsoft's pg_durable integrates AI with DB",
+      "Qwen3.6 family sees intense community activity"
+    ],
+    "ai-hn": [
+      "Outcry for Linux Claude desktop client (468 pts)",
+      "Jane Street designers prefer Claude over Figma",
+      "Lathe uses LLMs to learn domains, not skip",
+      "LLM anthropomorphism debate with AoE2 analogy",
+      "MoE router selections can leak input content",
+      "Economics of AI model providers debated"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro leads with 4,699 weekly likes",
+      "Nvidia LocateAnything-3B for visual grounding",
+      "Google Gemma-4-12B-it offers any-to-any",
+      "Uncensored Qwen3.6 variant HauhauCS 1,522 likes",
+      "SulphurAI's Sulphur-2-base surges in video gen",
+      "GGUF quantizations enable efficient MoE deployment"
+    ],
+    "ai-community": [
+      "AI agents need hard stop signs, not just instructions",
+      "Post-training model behavior deep dive on Lobste.rs",
+      "Cost control and observability escalate concerns",
+      "Vibe coding paradox: who protects the generator?",
+      "Safety layers more critical than models themselves",
+      "Veteran engineer critiques 8x productivity myth"
+    ]
+  }
+}
