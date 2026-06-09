@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.169 发布，修复ECONNRESET错误",
+      "OpenAI Codex rust-v0.138.0 发布",
+      "Gemini CLI v0.47.0-nightly 发布",
+      "Kimi Code 出现破坏性变更和安装Bug",
+      "Pi v0.79.0 发布，引入项目信任功能",
+      "Qwen Code v0.18.0-preview.0 发布失败"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.5-beta.5 和 beta.3",
+      "修复 QQBot 思考标签泄露到频道的问题",
+      "MCP 工具结果兼容性增强，支持新格式",
+      "Fix transcript image redaction (#91529) 合并",
+      "harden Codex OAuth callback 提升安全性",
+      "社区活跃度极高：500+ Issues、470+ PRs"
+    ],
+    "ai-trending": [
+      "ollama ⭐173,630 已支持 Kimi-K2.6 等新模型",
+      "turbovec 单日 +1729 stars，Rust 向量索引",
+      "whichllm 一行命令找出最快本地 LLM",
+      "AutoGPT 聚焦技能市场与多模型编排",
+      "browser-use ⭐97,805 浏览器操作 Agent",
+      "MemPalace 宣称最佳开源 AI 记忆系统"
+    ],
+    "ai-web": [
+      "Anthropic 研究：为生物代理铺设道路",
+      "OpenAI 秘密提交 S-1 文件，启动 IPO",
+      "OpenAI 发布“造福所有人”使命计划",
+      "Anthropic 提出确定性检索层 gget virus",
+      "确定性检索将生物数据准确率提至近100%",
+      "OpenAI 密集资本运作与公共叙事布局"
+    ],
+    "ai-hn": [
+      "OpenAI 秘密提交 IPO 文件，热度 302",
+      "微软被黑向 Claude 和 Gemini 用户投毒",
+      "Meta 智能眼镜因面部识别丑闻删除代码",
+      "Anthropic 衡量 LLM 对 N-day 漏洞影响",
+      "Apple 发布第三代基础模型",
+      "AI 安全事件引发社区对供应链的警惕"
+    ],
+    "ai-arxiv": [
+      "Qwen3 内置思考提升数学但致约束级错误",
+      "端到端上下文压缩将 KV 缓存缩至十分之一",
+      "Muon 优化器学得比 Adam 更鲁棒可迁移",
+      "梯度引导的推理时间对齐优化奖励",
+      "临床场景下医疗 LMs 隐私泄露评估框架",
+      "在线蒸馏中教师陷入局部同意陷阱被揭示"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 点赞4,722 下载540万",
+      "NVIDIA Nemotron-3-Ultra 550B 参数 MoE",
+      "LiquidAI LFM2.5-8B-A1B 低成本高性能",
+      "Qwen3.6-35B-A3B 去审查版下载量巨大",
+      "nvidia LocateAnything-3B 多模态定位",
+      "ideogram-4-fp8 文本到图像 FP8 量化"
+    ],
+    "ai-community": [
+      "公司打包12年经验为AI技能后裁员反被召回",
+      "提示工程已死，系统工程是未来",
+      "AI Agent 面临 RTT 攻击漏洞及防御",
+      "实测9家无服务器GPU供应商选型指南",
+      "2026年用Postgres pgvector做RAG全流程",
+      "开源自托管项目Odysseus、SoloEngine活跃"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.169 released",
+      "Kimi Code migrating to TypeScript",
+      "DeepSeek TUI rebranded as CodeWhale",
+      "Tools converge on MCP support",
+      "Stability gaps across major CLI tools",
+      "Seven major tools fiercely competing"
+    ],
+    "ai-agents": [
+      "OpenClaw beta releases v2026.6.5-beta.3/5",
+      "Fixes QQBot thinking-scaffold leaking",
+      "MCP tool result coercion fix",
+      "500 issues, 471 PRs in 24h",
+      "63 closed issues, 140 merged PRs",
+      "Stale high-severity issues remain"
+    ],
+    "ai-trending": [
+      "Skill marketplaces explode on trending",
+      "turbovec gains 1,729 stars in a day",
+      "MemPalace claims best memory performance",
+      "goose: new Rust agent harness (+699 stars)",
+      "Agent-Reach offers zero-fee web access",
+      "ollama now supports Kimi-K2.6, GLM-5.1"
+    ],
+    "ai-web": [
+      "Anthropic: biology databases are agent-unfriendly",
+      "Deterministic retrieval boosts accuracy to 100%",
+      "OpenAI files confidential S-1 for IPO",
+      "OpenAI publishes \"Built To Benefit Everyone\" plan",
+      "OpenAI launches Economic Research Exchange",
+      "Top models fail on NCBI Virus without tools"
+    ],
+    "ai-hn": [
+      "OpenAI S-1 filing sparks IPO debate",
+      "Microsoft breach targets Claude and Gemini",
+      "HN community debates site quality decline",
+      "LLM inference needs new router (Modular)",
+      "Melanie Mitchell: LLMs have dangerous unknowns",
+      "Apple introduces third-gen foundation models"
+    ],
+    "ai-arxiv": [
+      "Causal reasoning shift beyond correlations",
+      "Biomedical encoders confuse causation with correlation",
+      "End-to-end KV cache compression for long context",
+      "LLMs fail at graph isomorphism tasks",
+      "Dynamic depth routing for inference efficiency",
+      "Emergent misalignment supports persona hypothesis"
+    ],
+    "ai-hf": [
+      "Gemma-4 quantized variants dominate downloads",
+      "DeepSeek V4 Pro/Flash surge in likes",
+      "Video models Sulphur-2-base and Bernini-R",
+      "NVIDIA releases LocateAnything-3B, Cosmos3",
+      "Unsloth supports Gemma-4 and Qwen3.6",
+      "GGUF/NVFP4 quantization makes models deployable"
+    ],
+    "ai-community": [
+      "Dev.to: company packages expertise into AI skill, layoffs",
+      "Agent RTT exploits: defense patterns",
+      "Prompt engineering dead, system engineering future",
+      "Lobste.rs: how LLMs actually work deep dive",
+      "LLMs compared to Age of Empires II",
+      "Hidden data signals transmit behavioral traits"
+    ]
+  }
+}
