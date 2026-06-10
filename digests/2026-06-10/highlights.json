@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.170发布，Linux桌面版引热议",
+      "OpenAI Codex v0.139.0，Windows Sandbox讨论火",
+      "Gemini CLI 连发4个预览版，子代理误报问题",
+      "GitHub Copilot CLI 8个月未回应高赞Issue",
+      "Kimi Code CLI 死循环Bug旧案复活引关注",
+      "OpenCode 内存泄漏Issue获64赞，沙箱需求迫切"
+    ],
+    "ai-agents": [
+      "OpenClaw 每日处理442 Issue+488 PR，极度活跃",
+      "v2026.6.5正式版修复QQBot思考框架泄漏",
+      "Codex会话压缩所有权修复，解决预算冲突",
+      "iMessage新增sendTransport配置，防止连接泄漏",
+      "MCP工具结果强制合规化，避免非法载荷",
+      "社区热议工具调用文本泄漏与Codex会话回归"
+    ],
+    "ai-trending": [
+      "last30days-skill单日获3191星，Agent信息聚合爆火",
+      "turbovec基于Rust的高性能向量索引，日增1801星",
+      "career-ops基于Claude Code的AI求职系统，日增1110星",
+      "pm-skills专注于Agent技能市场，日增806星",
+      "goose开源AI Agent超越代码补全，日增489星",
+      "whichllm本地LLM查找工具，根据硬件推荐最佳模型"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Fable 5，性能达SOTA",
+      "Mythos 5为政府合作提供高权限版本",
+      "Project Glasswing与美国政府网络防御合作",
+      "Fable 5配备极度保守的安全过滤器",
+      "OpenAI今日无新内容发布",
+      "Anthropic展示能力-安全产品矩阵战略"
+    ],
+    "ai-hn": [
+      "Claude Fable 5帖子以1826分1442评论登顶",
+      "指控Fable 5可破坏竞争对手应用引热议",
+      "德国法院判定Google需为AI Overviews错误负责",
+      "OpenAI秘密提交IPO申请引发关注",
+      "Claw Patrol开源AI Agent安全防火墙发布",
+      "Vercel数据显示Anthropic占推理支出65%"
+    ],
+    "ai-arxiv": [
+      "链式思考微调破坏长上下文召回能力",
+      "推理后对齐可能被遗忘，安全性受警示",
+      "首次系统界定跨模态对齐与预测的适用边界",
+      "ABC-Bench聚焦生物安全AI代理评估",
+      "基于伊藤映射的精确蒸馏方法推动一步采样",
+      "PhantomBench专注高风险领域幻觉场景评估"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 周赞4740，下载超430万",
+      "Google Gemma-4系列全面爆发，多模态能力亮眼",
+      "NVIDIA Nemotron-3-Ultra-550B MoE模型发布",
+      "Ideogram-4发布FP8/NF4量化版",
+      "Unsloth为Gemma-4提供多个GGUF/QAT版本",
+      "JetBrains Mellum2-12B推理模型获273赞"
+    ],
+    "ai-community": [
+      "“提示词不是技能”引32评论激烈争论",
+      "停止给Agent投喂原始数据成最佳实践",
+      "多智能体失败模式图谱引开发者关注",
+      "Nex-N2-Pro开源模型宣称追上GPT-5.5",
+      "How LLMs Actually Work 获Lobste.rs最高62分",
+      "AI信任层为何尚未诞生成社区焦点"
+    ]
+  },
+  "en": {}
+}
