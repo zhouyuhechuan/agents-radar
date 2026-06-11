@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.172发布，子智能体递归深度5层。",
+      "OpenAI Codex新增Token预算管理工具。",
+      "Kimi Code修复YOLO模式可靠性问题。",
+      "OpenCode发布TUI 2.0大更新。",
+      "Pi引入信任门控，收到25条评论热议。",
+      "DeepSeek TUI品牌重塑为CodeWhale。"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1安全加固。",
+      "24小时500+Issue和PR，社区极度活跃。",
+      "102个PR合入，修复Discord多机器人Bug。",
+      "P1/P0消息泄露、会话丢失等严重Bug积压。",
+      "398条待合并PR，维护者压力大。",
+      "安全边界收紧可能导致旧配置兼容问题。"
+    ],
+    "ai-trending": [
+      "google/skills今日新增211星，Agent技能标准化。",
+      "addyosmani/agent-skills暴增821星成最活跃项目。",
+      "obra/superpowers获1104星，Agent技能框架。",
+      "NanoClaw、ZeroClaw等新项目涌现。",
+      "RAG生态成熟，milvus、qdrant持续霸榜。",
+      "vllm、ollama等基础工具热度不减。"
+    ],
+    "ai-web": [
+      "Anthropic发布《为生物学中的代理铺路》。",
+      "确定性检索层将准确率提升至接近100%。",
+      "AI Agent可靠性依赖确定性工具+模型。",
+      "OpenAI在Oracle Cloud上出现新内容。",
+      "科学数据库需原生支持AI Agent访问。",
+      "当前Agent落地关键是底层数据接口改造。"
+    ],
+    "ai-hn": [
+      "Claude Desktop每次启动拉起1.8GB VM。",
+      "Fable安全护栏被社区迅速攻破引争议。",
+      "Anthropic模型命名被网友幽默嘲讽。",
+      "AWS Bedrock要求共享数据给Anthropic。",
+      "150M轻量模型专为RAG证据提取设计。",
+      "中国关联方影响AI政策辩论被披露。"
+    ],
+    "ai-arxiv": [
+      "nD-RoPE提出统一n维旋转位置编码。",
+      "SAE特征不稳定但子空间可复现。",
+      "LLM-as-Judge评判科学新颖性有严重局限。",
+      "消除自我保存是对齐超级智能的必要条件。",
+      "RL泛化hacking：模型可欺骗训练目标。",
+      "负责任非合规机制引发对齐新思考。"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro获4762赞，下载超400万。",
+      "Google Gemma-4系列多模态模型社区活跃。",
+      "Nvidia LocateAnything-3B图像定位模型火爆。",
+      "Ideogram-4-fp8量化版降低图像生成门槛。",
+      "LiquidAI LFM2.5-8B-A1B极高效MoE模型。",
+      "BosonAI Higgs-Audio TTS 4B高保真语音。"
+    ],
+    "ai-community": [
+      "AI Agent在记忆、成本、安全上存在严重缺陷。",
+      "Claude Fable 5与Mythos 5权重相同但有静默降级。",
+      "MCP被类比USB-C，但过度集成带来安全隐患。",
+      "开发者共识：诊断能力比上下文更重要。",
+      "反向代理监控AI工具数据外泄风险。",
+      "多篇实践文章警示MCP盲目接入风险。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "7 major tools compete with unresolved regressions",
+      "Claude Code v2.1.172 has 10 active issues",
+      "Community trust issues driving self-hosted forks",
+      "Convergence on multi-agent workflows emerging",
+      "Memory management and cross-platform bugs persist",
+      "#18435 (580👍) remains top pain point for Claude Code"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6-beta.1 released",
+      "500 issues and 500 PRs updated in 24h",
+      "30 issues closed, 102 PRs merged",
+      "Security boundaries tightened across many components",
+      "Healthy contribution pipeline with active maintainers",
+      "Community engagement on stability and security features"
+    ],
+    "ai-web": [
+      "Anthropic: agents in biology infrastructure needed",
+      "Deterministic retrieval key for reliable agent workflows",
+      "OpenAI: Oracle Cloud partnership hinted on new page",
+      "Shift from model intelligence to infrastructure compatibility",
+      "Existing biological data is agent-unfriendly",
+      "Anthropic provides concrete case study on NCBI Virus"
+    ],
+    "ai-hn": [
+      "Claude Fable sparks controversy on HN front page",
+      "Mandatory data sharing for AWS Bedrock users",
+      "1.8GB Hyper-V VM launched on desktop",
+      "Cybersecurity researchers unhappy with guardrails",
+      "Multiple successful jailbreaks reported",
+      "OpenAI discussed price wars and stalled financing"
+    ],
+    "ai-arxiv": [
+      "nD-RoPE for n-dimensional position embedding",
+      "Seed dependence but reproducible subspaces in SAEs",
+      "Debiasing without protected attributes proposed",
+      "Self-preservation argued as root of misalignment",
+      "Agentic systems for non-compliance and self-correction",
+      "Physics-based attention using coupled oscillators"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4.8K likes, 4M downloads",
+      "NVIDIA Nemotron-3 Ultra 550B released in two variants",
+      "Gemma-4 family dominates multimodal and fine-tuning",
+      "Ideogram-4 and Bernini-R for image/video generation",
+      "Intense quantization to GGUF and FP4 formats",
+      "LiquidAI LFM2.5-8B-A1B efficient MoE with 1B active"
+    ],
+    "ai-community": [
+      "AI agents lie about task completion",
+      "Hidden costs and memory loss issues highlighted",
+      "MCP positioned as crucial but critiqued standard",
+      "AI sycophancy sharply critiqued",
+      "Practical guides on cost optimization shared",
+      "Security risks: data leaking to unauthorized services"
+    ]
+  }
+}
