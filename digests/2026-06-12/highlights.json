@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code连发两个补丁，聚焦多窗口与ARM兼容",
+      "OpenAI Codex发布5个Rust Alpha版本，电话验证成热点",
+      "Copilot CLI社区自发替代方案#53号Issue热度高",
+      "OpenCode v1.17.4发布，修复跨平台编码Bug",
+      "Qwen Code v0.18.0预览版，关注本地模型与会话持久化",
+      "Pi密集修复20+ Issue，解决CLI挂起与SSE超时"
+    ],
+    "ai-agents": [
+      "OpenClaw新增deniedPaths安全配置，防止代理访问敏感路径",
+      "PR审查自动修复流水线及Windows后台守护进程上线",
+      "移除默认AGENTS.md中‘像人类一样反应’模板减少争议",
+      "多个高热度Issue关闭：消息覆盖、权限、未授权模型警告",
+      "跨平台客户端需求成社区最活跃Issue话题",
+      "Issue关闭率仅5%，PR合并率23%，大量讨论进行中"
+    ],
+    "ai-trending": [
+      "agent-skills单日飙升3278 stars，Agent技能生态爆发",
+      "NVIDIA推出SkillSpector安全扫描器，检测Agent技能漏洞",
+      "医疗AI项目openmed单日+426 stars，AI+医疗持续火热",
+      "RAG新项目graphify/claude-context/claude-mem快速积累stars",
+      "x1xhlol收集30+AI工具系统提示，逆向工程需求升温",
+      "langgenius/dify获144k stars，生产级Agent工作流平台"
+    ],
+    "ai-web": [
+      "DXC将Claude嵌入银行航空等强监管行业核心系统",
+      "DXC培训数万名Claude认证FDE工程师，内化AI能力",
+      "DXC内部95%代码由Claude协作编写，验证生产力",
+      "Claude Corps奖学金计划：1000名人才AI培训+非营利服务",
+      "Anthropic主动应对AI就业冲击，社会风险对冲策略",
+      "OpenAI被曝考虑降价并收购Ona，但今日动态相对静默"
+    ],
+    "ai-hn": [
+      "Anthropic为Claude Fable隐形护栏道歉，社区强烈批评",
+      "Claude Fable 5编码中游，定价与性能不符引失望",
+      "MTG Bench用万智牌游戏逻辑评估LLM推理能力",
+      "开发者成功离线运行Claude Code接口搭配Qwen3.6",
+      "Yserver：用Claude Code辅助编写的Rust X11服务器",
+      "OpenAI考虑大幅降价并收购代码工具公司Ona"
+    ],
+    "ai-arxiv": [
+      "类比推理RAG：强化学习微调检索模仿案例提升推理",
+      "思维链‘承诺边界’研究：量化每一步因果重要性",
+      "推理即模式匹配：人类与LLM共享日常推理机制",
+      "EurekAgent：自主科学发现智能体框架无人类干预",
+      "多智能体奖励建模：优化复杂环境中协作行为",
+      "Agents-K1：面向科学知识编排的Agent-native框架"
+    ],
+    "ai-community": [
+      "11岁女孩Vibe Coding经历引发编程底层认知反思",
+      "Google ADK 5层防护机制防御AI Agent提示注入",
+      "教你构建正确的AI Agent SLO避免静默失败",
+      "Vibe-Coded应用易跑但代码质量维护是真正挑战",
+      "RAG边缘测试系列：空知识库、冲突上下文实战",
+      "HazelJS 1.0稳定版：首个AI原生TypeScript框架"
+    ]
+  },
+  "en": {}
+}
