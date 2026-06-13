@@ -1,0 +1,61 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code Fable 5故障引发10+高热度Issue",
+      "OpenAI Codex重构基础设施，10个活跃PR",
+      "Gemini CLI修复Agent行为缺陷，10个PR",
+      "OpenCode社区讨论Doom Loop和权限问题",
+      "Qwen Code免费层政策调整引发大讨论",
+      "DeepSeek TUI品牌更名与集群功能合并"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.6.6发布，安全边界收紧",
+      "409条新Issues，社区活跃度极高",
+      "141个PR合并，维护者处理能力强",
+      "内存泄露和消息丢失问题突出",
+      "两个版本同日发布，聚焦安全",
+      "破坏性变更涉及exec工具配置"
+    ],
+    "ai-trending": [
+      "Agent技能类项目集体爆发，addyosmani/agent-skills日增2656星",
+      "ollama/ollama 173K星，本地运行LLM最便捷",
+      "browser-use/browser-use 98K星，AI操控浏览器",
+      "LMCache加速推理，今日新增28星",
+      "mem0通用记忆层成为社区新宠",
+      "openmed首次进入热榜，医疗AI落地加速"
+    ],
+    "ai-hn": [
+      "美国政府指令暂停Claude Fable 5/Mythos 5访问，942分",
+      "Show HN:批量删除Claude聊天脚本获52分",
+      "Claude Fable 5编写游戏被展示",
+      "LLM复用幽灵作者论文引发讨论",
+      "Anthropic安全报告量化N-day漏洞影响",
+      "AI价格战与Meta AI内部爆料热议"
+    ],
+    "ai-arxiv": [
+      "EvoArena追踪Agent记忆演化突破动态环境",
+      "Operadic consistency检测推理失败无标签",
+      "One Polluted Page揭露检索污染风险",
+      "Agents-K1论文聚焦智能体推理",
+      "类比推理检索增强强化微调新范式",
+      "科学发现自动化EurekAgent等加速落地"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro登顶，4.8K赞338万下载",
+      "Gemma-4系列10+变体，多模态MoE主流",
+      "unsloth贡献4个热门GGUF版本",
+      "ByteDance视频生成模型崭露头角",
+      "CohereLabs轻量代码模型North-Mini-Code-1.0",
+      "Nex-N2-Pro基于Qwen3.5 MoE指令微调"
+    ],
+    "ai-community": [
+      "AWS Agent Toolkit迁移指南受关注",
+      "多智能体安全投入1000万美元背景揭秘",
+      "DiffusionGemma达1000 tokens/sec效率革命",
+      "手机运行本地LLM一周体验引热议",
+      "Agent记忆存储设计实践分享",
+      "Agent沙箱逃逸检测工具发布"
+    ]
+  },
+  "en": {}
+}
