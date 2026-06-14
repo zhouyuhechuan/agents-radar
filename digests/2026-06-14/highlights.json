@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code虚构工具结果，信任危机加剧。",
+      "Gemini CLI子代理误报成功，状态管理缺陷。",
+      "Qwen Code长程任务重复调用工具，稳定性堪忧。",
+      "GitHub Copilot CLI发布v1.0.62，修复兼容性问题。",
+      "OpenCode发布v1.17.6，增强模型调用稳定性。",
+      "Pi (pi-mono)发布v0.79.3，改进子代理调度。"
+    ],
+    "ai-agents": [
+      "OpenClaw发布v2026.6.8-beta.1，增强Telegram和WhatsApp。",
+      "v2026.6.7-beta.1改进Slack和Telegram富媒体支持。",
+      "网关内存泄漏等P1/P0 Bug仍待修复。",
+      "子代理静默失败问题引发可靠性争议。",
+      "多代理会话锁冲突影响并发场景。",
+      "社区199个PR被合并，贡献者持续跟进。"
+    ],
+    "ai-trending": [
+      "agent-skills获1514星，AI coding agent技能库新宠。",
+      "NVIDIA SkillSpector发布，可扫描AI agent安全漏洞。",
+      "LMCache首次登榜，KV缓存层提升LLM推理吞吐。",
+      "aisuite提供统一接口，一行代码切换模型提供商。",
+      "hermes-agent以19.2万星领跑，自成长个人agent受追捧。",
+      "vllm和ollama持续霸榜，稳居部署首选。"
+    ],
+    "ai-web": [
+      "Anthropic最强模型Mythos 5发布四天即遭政府禁令。",
+      "美国政府要求禁向外国用户提供Fable 5。",
+      "Anthropic被迫暂停，称政府展示的越狱漏洞微小。",
+      "Anthropic与塔塔咨询合作，进军金融医疗监管行业。",
+      "公众调查显示AI失业担忧成跨党派共识。",
+      "Mythos 5达到SOTA，安全拦截约5%会话。"
+    ],
+    "ai-hn": [
+      "亚马逊CEO对话白宫致Anthropic模型被禁用。",
+      "GLM 5.2发布，非西方模型力量崛起。",
+      "Claude Fable 5规划能力优于GPT-5.5。",
+      "开发者用Fable制作80款小游戏抗议模型被禁。",
+      "Shepherd's Dog游戏展示Fable创造力引惋惜。",
+      "Galdor Go语言Agent框架内置追踪与重放。"
+    ],
+    "ai-community": [
+      "Claude Fable 5发布3天即被美国政府下架。",
+      "便宜模型实际成本是预期8.6倍，成本悖论。",
+      "Bun用LLM在9天内从Zig重写到Rust。",
+      "多Agent任务因模型撤销丢失工作流，警示风险。",
+      "Teach Your Agent to Forget实用遗忘机制受关注。",
+      "MCP服务器测试需用真实模型，curl无法替代。"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code remains benchmark for feature depth",
+      "Qwen Code, OpenCode closing gap with dynamic workflows",
+      "Pi, CodeWhale pursue headless sub-agent runtimes",
+      "MCP ecosystem maturation is dominant theme",
+      "Multi-agent orchestration is key investment area",
+      "Persistent memory/state management across tools"
+    ],
+    "ai-agents": [
+      "OpenClaw shipped two new beta releases today",
+      "500 issues and 500 PRs updated in 24 hours",
+      "199 PRs merged or closed",
+      "Subagent completion loss bug reported",
+      "Memory leaks and session-state contamination issues",
+      "New beta v2026.6.8 with Telegram rich text delivery"
+    ],
+    "ai-trending": [
+      "agent-skills gained 1,514 stars today",
+      "superpowers added 924 stars",
+      "NVIDIA SkillSpector focuses on agent security",
+      "LMCache boosts LLM inference performance",
+      "Shift to composable skill-based agent systems",
+      "ollama now supports Kimi-K2.6 model"
+    ],
+    "ai-web": [
+      "US government ordered Anthropic to block Fable 5",
+      "Anthropic complied with national security directive",
+      "Amazon CEO triggered crackdown, per WSJ",
+      "Anthropic partnered with TCS for 50,000 employees",
+      "52,000 Americans surveyed on AI attitudes",
+      "Claude Fable 5 described as Mythos-class model"
+    ],
+    "ai-hn": [
+      "Amazon CEO personally lobbied to restrict Anthropic",
+      "WSJ reveals Amazon's role in Anthropic crackdown",
+      "HN community split on government overreach",
+      "GLM 5.2 quietly released",
+      "Meta internal AI chaos draws reaction",
+      "Export controls bar foreign nationals from Claude"
+    ],
+    "ai-community": [
+      "Bun rewrote itself from Zig to Rust in 9 days using LLM",
+      "Gemini 2.5 Flash cost 8.6x more than Claude Haiku",
+      "US government pulled Claude Fable 5 three days after launch",
+      "Developer teaches agents to forget on purpose",
+      "Apple expands Private Cloud Compute",
+      "Debate over 'too dangerous to exist' narrative"
+    ]
+  }
+}
