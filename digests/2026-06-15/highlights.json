@@ -1,0 +1,118 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenCode v1.17.7 发布，社区活跃度高",
+      "Qwen Code 发布失败，CI可靠性受挑战",
+      "DeepSeek TUI v0.8.60 品牌重塑为CodeWhale",
+      "Claude Code 子代理无限递归问题待解决",
+      "Pi 核心交互回归，扩展API模型重构",
+      "GitHub Copilot CLI 技能标准化进展缓慢"
+    ],
+    "ai-agents": [
+      "OpenClaw 发布 v2026.6.8-beta.1 版本",
+      "WhatsApp 稳定性修复PR获维护者关注",
+      "Feishu 飞书新增视频会议邀请处理",
+      "Gateway 安全加固PR已准备合并",
+      "会话状态丢失仍是社区焦点问题",
+      "平台稳定性Bug积压严重引发焦虑"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector 获964今日stars领跑安全赛道",
+      "Andrew Ng aisuite 统一API获291stars",
+      "Kronos金融大模型与TradingAgents受关注",
+      "caveman极简token压缩创新项目崛起",
+      "ollama现支持Kimi、GLM、DeepSeek最新模型",
+      "AutoGPT与Hermes Agent保持百万级活跃"
+    ],
+    "ai-web": [
+      "OpenAI 正式推出 Partner Network生态计划",
+      "Anthropic 今日无更新，或处重大发布前",
+      "OpenAI战略从产品转向平台生态治理",
+      "合作伙伴网络将影响ISV和系统集成商",
+      "开发者需重新评估在OpenAI生态定位",
+      "Anthropic静默期可能专注安全评估与内测"
+    ],
+    "ai-hn": [
+      "里约热内卢本土LLM被曝为模型合并造假",
+      "Oracle免费层政策收紧引发开发者不满",
+      "Claude近期行为变'混蛋'讨论高分",
+      "Anthropic被欧盟调查及出口管制争议",
+      "Peek：类Figma数据库GUI获关注",
+      "The Engineer：从Issue到PR的Claude驱动工具"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro 4835点赞领跑本周",
+      "Gemma-4家族7款模型集体上榜热门",
+      "NVIDIA LocateAnything-3B获2005点赞",
+      "Qwen3.6系列微调变体4款上榜",
+      "unsloth社区量化GGUF版本下载量极高",
+      "Ideogram-4图像生成及Boson TTS受关注"
+    ],
+    "ai-community": [
+      "Claude Code和Codex分工策略实战对比",
+      "Mac Mini跑本地LLM替代订阅省钱指南",
+      "MCP prompt注入攻击漏洞揭秘",
+      "AI Agent记忆系统基于语义而非效果",
+      "Agent开发五大痛点总结实用指南",
+      "Apple私有云计算隐私边界讨论热烈"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Agent lifecycle bugs plague all major tools",
+      "Token cost transparency universally demanded",
+      "Claude Code, Gemini CLI target enterprise stability",
+      "OpenCode, Pi focus on feature velocity",
+      "Windows/Linux platform breakages persist",
+      "Claude Code has 10 hot issues (2 critical)"
+    ],
+    "ai-agents": [
+      "OpenClaw sees 500 issues, 500 PRs updated today",
+      "New beta v2026.6.8-beta.1 for Telegram/WhatsApp",
+      "437 open issues, backlog needs maintainer review",
+      "Message truncation and session stalls reported",
+      "63 issues closed, 71 PRs merged",
+      "P1/P2 bugs actively investigated"
+    ],
+    "ai-trending": [
+      "NVIDIA's SkillSpector +964 stars for AI agent security",
+      "Andrew Ng's aisuite unified API wrapper gaining traction",
+      "ollama/ollama 174k stars, now supports Kimi-K2.6",
+      "vllm-project/vllm remains backbone for production serving",
+      "firecrawl/firecrawl 132k stars for AI agent web scraping",
+      "Financial multi-agent framework TradingAgents trending"
+    ],
+    "ai-web": [
+      "OpenAI announces Partner Network (metadata only)",
+      "Anthropic published zero new articles today",
+      "Only one new official content piece crawled",
+      "No technical blog posts or research papers released",
+      "OpenAI's URL signals ecosystem expansion",
+      "Strategic signal: Anthropic's continued quiet period"
+    ],
+    "ai-hn": [
+      "Claude behavioral changes 'turning asshole' debated",
+      "Rio de Janeiro's 'homegrown' LLM likely a merge",
+      "Announcement: 'Claude Code is dead' sparks shift",
+      "Community skeptical of national AI transparency",
+      "Export-control controversies around Anthropic",
+      "Focus on real-world deployment ethics over benchmarks"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro tops with 4,835 weekly likes",
+      "Google's Gemma-4 family continues to gain traction",
+      "MoE vision-language models rising (DiffusionGemma)",
+      "NVIDIA's LocateAnything-3B for object localization",
+      "Ideogram-4 for high-quality text-to-image generation",
+      "Unsloth's GGUF quantizations making models accessible"
+    ],
+    "ai-community": [
+      "Struggle with reliable long-term memory for agents",
+      "Developers replace cloud subscriptions with local LLMs",
+      "Claude Code and Codex separate billing debated",
+      "Self-hosted code search alternative to Sourcegraph built",
+      "Economic critiques of AI hype cycle on Lobste.rs",
+      "Practical RAG pipelines and prompt injection defenses"
+    ]
+  }
+}
