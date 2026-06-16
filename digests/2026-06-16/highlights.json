@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.178 严重BUG修复活跃",
+      "OpenAI Codex v0.140.0 聚焦Windows兼容性",
+      "Gemini CLI 内存泄漏与SSRF防护",
+      "GitHub Copilot CLI 版本回退问题",
+      "OpenCode 内存泄漏与MCP标准化",
+      "Pi v0.79.4 跨平台兼容更新"
+    ],
+    "ai-agents": [
+      "v2026.6.8-beta.2 增强Telegram/WhatsApp交付",
+      "Critical内存泄漏#91588引发广泛关注",
+      "84个PR合并/关闭，合并吞吐量低",
+      "PR#90861修复MCP会话让权失效",
+      "PR#68936新增PR审查自动修复流水线",
+      "PR#93265简化新用户向导流程"
+    ],
+    "ai-trending": [
+      "Agent-Reach 今日+1100⭐零API费用读取信息",
+      "NVIDIA/SkillSpector +1079⭐ agent安全需求",
+      "Kronos金融Foundation Model +396⭐",
+      "《Introduction to Autonomous Robots》+489⭐",
+      "Cognee 17.8k⭐ 记忆层与知识图谱结合",
+      "Flowise 53.6k⭐ 低代码Agent工作流"
+    ],
+    "ai-web": [
+      "Anthropic研究揭示Claude情感神经元组织",
+      "情感表征与人类心理学高度一致",
+      "Making Claude a chemist：化学能力测评",
+      "Claude从NMR谱图识别分子结构",
+      "镜像异构体区分仍有挑战",
+      "OpenAI当日无更新，可能静默期"
+    ],
+    "ai-hn": [
+      "Anthropic安全超能力成社区焦点(205分)",
+      "Anthropic与特朗普政府冲突引发讨论",
+      "Claude Code for VS Code发布原生diff",
+      "Spotlight工具可视化AI编码过程",
+      "GitHub因AI算力紧张转向AWS",
+      "Anthropic暂停Claude Code信用变更"
+    ],
+    "ai-arxiv": [
+      "TrustedARI提出信任原生Agent路由架构",
+      "知识蜜罐防御LLM提取攻击",
+      "平均场并行解码提升扩散模型速度",
+      "GAS-Leak-LLM黑盒越狱攻击更优",
+      "LLM安全审查可重复性不稳定",
+      "未分配智能体路径规划新形式化"
+    ],
+    "ai-community": [
+      "\"AI不是信任，而是设计\"系列终结篇",
+      "Chrome扩展实现AI刻意使用",
+      "幻觉是架构问题而非模型问题",
+      "隐藏的AI代理失败模式梳理",
+      "三分之一拒绝工具调用因验证错误",
+      "自托管LLM代理集群信任构建"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.178 released",
+      "OpenAI Codex v0.140.0 released",
+      "Pi v0.79.4 released",
+      "Qwen Code v0.18.1 and desktop out",
+      "Gemini CLI: 50 issues updated",
+      "Copilot CLI v1.0.63 and v1.0.63-0"
+    ],
+    "ai-agents": [
+      "OpenClaw beta v2026.6.8-beta.2 released",
+      "500 issues and 500 PRs updated today",
+      "30 issues closed, 84 PRs merged",
+      "Telegram and WhatsApp delivery improved",
+      "Memory leaks and security regressions open",
+      "Native draft migration support added"
+    ],
+    "ai-trending": [
+      "NVIDIA SkillSpector gains 1,079 stars",
+      "trycua/cua for computer-use agents",
+      "ollama/ollama now 174,264 stars",
+      "vllm-project/vllm at 82,990 stars",
+      "firecrawl/firecrawl 133,245 stars",
+      "TradingAgents totals 86k+ stars"
+    ],
+    "ai-web": [
+      "Anthropic: 'Making Claude a chemist'",
+      "Claude can interpret NMR spectra",
+      "Emotion concepts research published",
+      "Claude Sonnet 4.5 emotions analyzed",
+      "Interpretability team's psychological map",
+      "No new content from OpenAI today"
+    ],
+    "ai-hn": [
+      "Stratechery Anthropic analysis: 205 pts",
+      "'Claude Corps' launch sparks 97 pts",
+      "Trump admin blocks Anthropic models",
+      "Lawsuit over plan limits trending",
+      "Fable 5 training method highlighted",
+      "Personality clash took models offline"
+    ],
+    "ai-arxiv": [
+      "Knowledge Honeypot defends model theft",
+      "Mean-Field parallel decoding for diffusion",
+      "InstantForget: backdoor unlearning fast",
+      "DifFRACT for vision transformer interpret",
+      "Retrievable Gradients for continual learning",
+      "Reservoir Attention Network for efficiency"
+    ],
+    "ai-hf": [
+      "DeepSeek-V4-Pro: 4,866 likes, 3M downloads",
+      "Nvidia LocateAnything-3B: 2,057 likes",
+      "Google DiffusionGemma-26B-A4B-it trending",
+      "Microsoft FastContext-1.0-4B-SFT early",
+      "Unsloth GGUF conversions for top models",
+      "Qwen3.6-35B uncensored: 2.7M downloads"
+    ],
+    "ai-community": [
+      "Chrome extension for mindful AI use",
+      "Gemma 4 fine-tuned for Old Korean",
+      "Fable 5 outage: backup workflow lessons",
+      "Gemini billing confusion explained",
+      "Lobste.rs: Claude Fable 5 outage debate",
+      "Satirical human-powered AI service goes viral"
+    ]
+  }
+}
