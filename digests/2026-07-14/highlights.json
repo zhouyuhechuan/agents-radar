@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.208发布，修复成本失控问题",
+      "OpenAI Codex多Agent管理，Windows稳定性提升",
+      "Gemini CLI Agent假阳性与无限循环频发",
+      "GitHub Copilot CLI语音模式失效，Autopilot无限消耗",
+      "Kimi Code会话恢复损坏，支持CLAUDE.md互操作",
+      "OpenCode v1.17.19/20推出YOLO模式与权限重设计"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1发布，默认模型变GPT-5.6",
+      "exec工具敏感信息脱敏，安全强化PR待合并",
+      "P0级严重Bug（数据库损坏）仍开放未修复",
+      "新增Featherless、Claude Sonnet 5等模型",
+      "OAuth刷新后模型可用性列表改进",
+      "飞书通道修复，长任务进度提示优化"
+    ],
+    "ai-trending": [
+      "Graphify今日获1095星，将文件夹转为知识图谱",
+      "Hermes-Agent星数214k，强调个性化成长",
+      "Hallmark获794星，为Claude Code提供设计技能",
+      "Ollama星176k，支持Kimi、GLM、DeepSeek",
+      "Browser-use星104k，AI智能体自主操作浏览器",
+      "CherryStudio多模型商店，Star超80k"
+    ],
+    "ai-web": [
+      "Anthropic提出Agentic Misalignment，模型可能内部威胁",
+      "Constitutional Classifiers防御通用越狱成功",
+      "OpenAI GPT-5.6产品化，GPT Live实时代理",
+      "Off switch for dual use从知识层面控制双用途",
+      "Anthropic机器人领域进展，向物理世界扩展",
+      "价值观量化研究，定义下一代AI安全门槛"
+    ],
+    "ai-hn": [
+      "Zig/Bun创建者炮轰Claude代码为unreviewed slop",
+      "Claude Code Mr.Meeseeks插件获117分，趣味等待体验",
+      "开发者用SQL实现神经网络推理，获57分",
+      "经济学家讨论AI导致失业的证据与影响",
+      "Meta因隐私侵蚀功能再遭社区批评",
+      "FixBugs AI自动复现生产Bug并验证修复"
+    ],
+    "ai-hf": [
+      "GLM-5.2获3901赞，智谱AI最新MoE开源模型",
+      "Unlimited-OCR下载150万+，百度通用OCR",
+      "Qwythos-9B-GGUF下载198万，视觉语言模型",
+      "Agents-A1基于Qwen3.5 MoE，专用智能体",
+      "Nemotron高效MoE，NVIDIA推理效率探索",
+      "Supra-Router路由模型，轻量级LLM调度"
+    ],
+    "ai-community": [
+      "开发者自述用Claude Code 30天后技能下降",
+      "Gemma-4成功移植到AWS Inferentia2，实战报告",
+      "MCP工具路由减少Token，避免智能体50K溢出",
+      "评测指标失效案例：整体pass rate欺骗性",
+      "停用AI助理30天恢复深度思考与编程自信",
+      "Lobste.rs热议AI气候成本与监控问题"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code patches v2.1.208",
+      "Codex v0.145.0-alpha.7 released",
+      "Gemini CLI v0.52 released",
+      "Windows compatibility systemic weakness",
+      "Power users face regression fatigue",
+      "Permission overhaul industry-wide trend"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1 released",
+      "New AI providers: Featherless, Sonnet 5",
+      "GPT-5.6 set as default model",
+      "500 issues/PRs in 24 hours",
+      "Critical session state regressions",
+      "Linux/Windows desktop app requested"
+    ],
+    "ai-trending": [
+      "Graphify gains 1,095 stars today",
+      "awesome-llm-apps +996 stars",
+      "Vibe-Trading surges +1,153",
+      "hallmark anti-slop design tool",
+      "vllm reaches 86,166 stars",
+      "LangChain leads at 141,700 stars"
+    ],
+    "ai-web": [
+      "Agentic misalignment research published",
+      "Ben Bernanke joins Anthropic trust",
+      "Claude Design creative workspace launched",
+      "Reflect with Claude feature added",
+      "Claude's values vary by language",
+      "OpenAI crawl metadata-only"
+    ],
+    "ai-hn": [
+      "Zig creator blasts Claude ecosystem",
+      "Anthropic $65K salary sparks debate",
+      "Microsoft's Claude Code rollout studied",
+      "Show HN: Practical AI tools",
+      "World models limits analysis posted",
+      "VLMs tokenization gap explored"
+    ],
+    "ai-community": [
+      "Blue lobster_Agent: AI coding skill atrophy",
+      "Ben Halpern: Documentation still vital",
+      "Gemma-4 deployed on Inferentia2",
+      "VetoBench tests agent memory",
+      "MCP tool routing deep dive",
+      "Lobste.rs: Google AI climate bloat"
+    ]
+  }
+}
