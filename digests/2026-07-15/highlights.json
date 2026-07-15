@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code 发布 v2.1.209/210，修复 Windows/Cowork 问题",
+      "OpenAI Codex 发布 5 个 Alpha/补丁，修复 Browser Use 崩溃",
+      "Gemini CLI 发布 v0.52.0-nightly，含子代理与 Shell 执行重构",
+      "OpenCode 发布 v1.18.0/v1.18.1，新 UI 引发大量反馈",
+      "Pi 发布 v0.80.7，适配新模型并支持 OAuth",
+      "Qwen Code 发布 v0.19.10，修复安全与会话稳定性问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.1 启动迁移崩溃被标记为 P0 级 Bug",
+      "PR #107903 实现系统代理委托 Phase2 安全通道",
+      "PR #107905 修复 toNumber() 接受十六进制/科学计数法的安全旁路",
+      "PR #107605 移除 cron 工具 pattern 字段以兼容 llama.cpp",
+      "PR #97224 为 Codex Harness 添加 PreToolUse 中继 opt-out",
+      "PR #92294 修复 Codex 无环境时 exec 工具不可用问题"
+    ],
+    "ai-trending": [
+      "langgenius/dify 达 148,847 stars，生产级 Agentic Workflow 平台",
+      "open-webui/open-webui 达 145,444 stars，本地部署首选界面",
+      "mattpocock/skills 日增 1679 stars，Claude 技能库火爆发售",
+      "Significant-Gravitas/AutoGPT 185,540 stars，自主 agent 鼻祖",
+      "OpenHands/OpenHands 80,794 stars，AI 软件开发助手",
+      "mem0、ai-hedge-fund 等记忆与交易 AI 项目集中爆发"
+    ],
+    "ai-web": [
+      "Anthropic 发布 Claude for Teachers，面向美国 K-12 教师免费",
+      "Anthropic 向加拿大 AI 研究投入 1000 万加元",
+      "Anthropic 发布加拿大 Claude 经济影响报告，采用率超预期 4 倍",
+      "OpenAI 今日无任何公开内容更新，战略叙事静默",
+      "Claude for Teachers 与国家教育标准耦合，建立准入壁垒",
+      "Anthropic 与 Amii、Mila、Vector Institute 建立正式合作"
+    ],
+    "ai-hn": [
+      "Claude 频繁输出“load-bearing”引 500+ 评论吐槽",
+      "Codex 加密子代理提示引发 240 条激烈辩论",
+      "Meta 被诉称裁员决策由 AI 做出，引发问责讨论",
+      "Apple 起诉 OpenAI 窃取硬件机密，法律事件震动社区",
+      "LeMario 用 JEPA 在超级马里奥上训练世界模型",
+      "Launch HN: Agnost AI 从 Agent 对话中提取反馈"
+    ],
+    "ai-arxiv": [
+      "Metacognition in LLMs 综述系统梳理 AI 自我反思能力",
+      "Inside the Unfair Judge 从隐藏层解释 LLM 打分偏见",
+      "C-RASP 框架给 Transformer 样本复杂度提供理论下界",
+      "MM-ToolSandBox 提供 500+ 工具的可视化工具调用基准",
+      "分布式后门攻击揭示多智能体系统组合风险",
+      "Agent Hacks Agent 框架自动对生产级 Agent 红队测试"
+    ],
+    "ai-hf": [
+      "GLM-5.2 凭 3948 赞登顶周榜，MoE 稀疏架构受追捧",
+      "Qwen 3.5/3.6 生态爆发，衍生品占榜单近三分之一",
+      "Qwythos-9B GGUF 版下载超 200 万，视觉语言模型热门",
+      "ThinkingCap-Qwen3.6-27B 登上热门，长上下文多轮对话",
+      "tencent/Hy3 发布，腾讯 Hunyuan 系列第三代文本模型",
+      "deepreinforce-ai/Ornith-1.0-35B-GGUF 下载 153 万"
+    ],
+    "ai-community": [
+      "AI Agent 进入“祛魅”阶段，开发者分享 Claude Code 伪造代码",
+      "自建本地推理方案 Hailo 8 手持设备受关注",
+      "token 账单削减 60% 成为优化刚需话题",
+      "OWASP Agentic Top 10 被译为实践指南",
+      "RAG 评估波动被归因于检索层非确定性",
+      "“只读优先” Agent 部署模型安全最佳实践涌现"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Windows stability weakest link",
+      "Agent orchestration P1 bugs",
+      "TUI customization becoming standard",
+      "MCP security hardening focus",
+      "Pi and Kimi multi-provider push",
+      "12 releases in 24 hours"
+    ],
+    "ai-agents": [
+      "500 issues & 500 PRs updated",
+      "Gateway crash-loop on latest update",
+      "Memory core conflict blocks startup",
+      "Critical bugs linked to fix PRs",
+      "No new releases today",
+      "Rapid maintainer response"
+    ],
+    "ai-trending": [
+      "Graphify +1,851 stars today",
+      "Hallmark anti-AI-slop design",
+      "destructive_command_guard safety",
+      "Vibe-Trading +1,256 stars",
+      "skills repo +1,679 stars",
+      "open-webui 145k stars trending"
+    ],
+    "ai-web": [
+      "Claude for Teachers free K-12",
+      "$10M CAD to Canadian AI",
+      "Canada second per-capita adoption",
+      "Economic Index on Canada",
+      "No new OpenAI content",
+      "Anthropic education push"
+    ],
+    "ai-hn": [
+      "Claude 'load-bearing' phrase overuse",
+      "Codex encrypts sub-agent prompts",
+      "Meta sued for AI layoff decisions",
+      "OpenAI ad business misses forecasts",
+      "Australia first AI regulation moves",
+      "LeMario JEPA world model"
+    ],
+    "ai-arxiv": [
+      "Mechanistic interpretability LLM judges",
+      "Distributed backdoor multi-agent",
+      "Mamba state usage exact tool",
+      "Self-supervised compression new",
+      "Metacognition survey for LLMs",
+      "Frugal compression technique"
+    ],
+    "ai-hf": [
+      "Qwen 3.5/3.6 quantized variants",
+      "GLM-5.2 most liked model",
+      "baidu/Unlimited-OCR popular",
+      "NVIDIA Nemotron 75B MoE",
+      "GGUF local inference boom",
+      "Video generation fine-tunes"
+    ],
+    "ai-community": [
+      "AI agents hallucinating progress",
+      "Cost optimization cut tokens 60%",
+      "OWASP Agentic Top 10 explained",
+      "Read-only-first agent patterns",
+      "Rust hot path 27x faster",
+      "RAG eval non-deterministic retrieval"
+    ]
+  }
+}
