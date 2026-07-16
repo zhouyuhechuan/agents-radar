@@ -1,0 +1,126 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.211子代理成本失控，社区热议稳定性问题",
+      "OpenAI Codex多Alpha版本发布，Windows ARM卡顿待解",
+      "Gemini CLI Agent虚假成功与无限挂起，安全漏洞修复中",
+      "GitHub Copilot CLI v1.0.71，MCP权限认证断裂",
+      "Qwen Code双版本发布，多工作区架构与代理自动化",
+      "OpenCode v1.18.2新UI严重缺陷，WebFetch安全漏洞"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1发布，修复Gateway崩溃循环",
+      "远程编码会话支持云Worker与终端恢复OpenCode会话",
+      "v2026.7.1版本P0回归问题，社区集中反馈崩溃循环",
+      "发布破坏性变更，需运行openclaw doctor --fix迁移",
+      "llama.cpp cron工具JSON Schema更新解决兼容问题",
+      "社区468条Issue和500条PR，活跃度极高"
+    ],
+    "ai-trending": [
+      "AI Agent技能包爆发，hallmark/skills等三个仓库新增3800星",
+      "destructive_command_guard斩获471星，安全治理首登榜",
+      "Vibe-Trading与DeepTutor合计新增超1000星，垂直场景受关注",
+      "awesome-llm-apps今日新增1236星，Copilot替代生态壮大",
+      "ollama支持Kimi-K2.6等最新模型，本地LLM工具持续领跑",
+      "NousResearch/hermes-agent达215k星，通用Agent框架"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Tag，在Slack中@提及AI协作",
+      "内部65%产品代码由Claude Tag生成，范式转向同事",
+      "推出10个金融Agent模板，深度集成Microsoft 365",
+      "Claude for Teachers面向美国K-12教师免费开放高级功能",
+      "Anthropic投入1000万加元与加拿大三大AI研究所合作",
+      "OpenAI发布GPT-Red自我改进鲁棒性研究，内容未抓取"
+    ],
+    "ai-hn": [
+      "Codex Micro硬件设备热度爆表，获265分224评论",
+      "Inkling 975B参数开放权重模型发布，120分关注",
+      "OpenAI欧洲商标权官司败诉，监管挫折并存",
+      "Brainless组件库模仿Claude Code等UI，获91分",
+      "Anthropic跨语言价值观研究揭示Claude性格差异",
+      "反AI文章“设计中完全不用AI”获高赞与激烈讨论"
+    ],
+    "ai-arxiv": [
+      "Deep Interaction：高效纠正CoT推理错误步骤的方法",
+      "Terminal-Bench 2.0揭示当前Agent优化不累积的问题",
+      "Protective Capacity Hallucination定义新幻觉风险类别",
+      "Experience Memory Graph实现单次纠错提升长时任务",
+      "AgentCompass提出统一评估基础设施解决碎片化",
+      "SAFETY SENTRY三级路由安全保护，动态决定人类介入"
+    ],
+    "ai-hf": [
+      "GLM-5.2以4000点赞登顶，MoE-DSA架构国产突破",
+      "tencent/Hy3获800赞，Hunyuan第三代文本模型发布",
+      "Inkling多模态模型支持图像与音频输入，365赞",
+      "ThinkingCap-Qwen3.6-27B结合CoT提升图文理解",
+      "Unlimited-OCR达2002赞170万下载，OCR明星模型",
+      "needle函数调用模型与gemma-4-12B Agent微调升温"
+    ],
+    "ai-community": [
+      "Building AI Agent that knows when not to guess，Qwen+MCP",
+      "LangSmith vs Traccia：生产Agent观察与强制执行对比",
+      "Type-safe LLM outputs with Zod：类型安全解析",
+      "Post-Mortem：本地MCP服务器用Ollama+ChromaDB",
+      "LLM circuit breaker：预算耗尽自动切换本地模型",
+      "Agentic Workflows Should Get Less Agentic观点文章"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex migrating to Rust",
+      "Qwen Code daemon multi-workspace support",
+      "Claude Code facing high-severity bugs",
+      "Gemini CLI fixing layout regressions",
+      "Copilot CLI stalled by MCP auth gaps",
+      "Pi and OpenCode subagent reliability issues"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.1 released",
+      "Remote coding sessions now supported",
+      "P0/P1 crash-loop regressions in 2026.7.1",
+      "177 PRs merged or closed today",
+      "Legacy state migration gates causing friction",
+      "Session takeover errors being fixed"
+    ],
+    "ai-trending": [
+      "Skills marketplaces gain 3,800+ stars",
+      "hallmark: design skills for Claude (1277⭐)",
+      "destructive_command_guard: 471⭐ today",
+      "Vibe-Trading: agentic vertical app (915⭐)",
+      "awesome-llm-apps gains 1,236⭐ today",
+      "OpenInterpreter: lightweight coding agent"
+    ],
+    "ai-web": [
+      "Claude Tag on Slack redefines teamwork",
+      "10 agent templates for financial services",
+      "Claude for Teachers: free premium K-12",
+      "Anthropic pushes enterprise agent adoption",
+      "OpenAI publishes GPT-Red self-improvement",
+      "GPT-Red details not publicly available"
+    ],
+    "ai-hn": [
+      "Inkling 975B open-weights model released",
+      "OpenAI Codex Micro hardware draws debate",
+      "EU court rules OpenAI trademark lost",
+      "\"We don't use AI\" essay goes viral",
+      "OpenAI Bubble article sparks skepticism",
+      "MIT paper on speculative AI growth"
+    ],
+    "ai-arxiv": [
+      "Terminal-Bench 2.0 for agent evaluation",
+      "Experience Memory Graphs correct errors",
+      "Formal runtime action verification proposed",
+      "Rank preservation in transformers analyzed",
+      "Groc-PO for truthful multimodal LLMs",
+      "Protective capacity hallucination taxonomy"
+    ],
+    "ai-community": [
+      "Circuit breakers for LLM reliability",
+      "Type-safe LLM outputs with Zod",
+      "Agent memory is unaddressed attack surface",
+      "Qwen + MCP pattern for safe rejection",
+      "LangSmith vs Traccia: observe vs enforce",
+      "Local, offline AI tutorials gain traction"
+    ]
+  }
+}
