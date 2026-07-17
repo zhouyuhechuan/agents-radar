@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code新增/fork命令，多账户切换呼声高",
+      "OpenAI Codex修复危险命令检测，性能问题爆发",
+      "Gemini CLI密集安全加固，发布v0.52.0",
+      "Copilot CLI语音模式全模型静默失败成最热",
+      "Kimi Code修复上下文bug，Windows安装崩溃",
+      "Pi密集发布版本，核心集成Kimi K3模型"
+    ],
+    "ai-agents": [
+      "OpenClaw今日处理500条Issue和500条PR",
+      "2026.7.1版本网关崩溃和会话锁定成焦点",
+      "多个CI修复PR增加git操作超时机制",
+      "Matrix频道稳定性PR已合并增强安全性",
+      "Control UI将添加插件目录图标功能",
+      "原生iOS/Android/Mac将支持内联Widget"
+    ],
+    "ai-trending": [
+      "Nutlope/hallmark单日新增3372星，抗AI废料",
+      "mattpocock/skills新增2060星，Claude技能库",
+      "openinterpreter用Rust重写，支持Kimi K3",
+      "港大DeepTutor获656星，个性化教育AI",
+      "Graphify-Labs/graphify获1107星，知识图谱融合",
+      "GitHub发布官方Copilot Agent SDK（Java）"
+    ],
+    "ai-web": [
+      "Anthropic今日零更新，或进入内部研发期",
+      "OpenAI发布青少年AI安全访问文章",
+      "安全议题成AI竞争新前线",
+      "增量更新模式预示重大发布前沉寂",
+      "Anthropic重研发轻营销，安全内化",
+      "OpenAI安全叙事下沉至用户侧"
+    ],
+    "ai-hn": [
+      "传统ML检测LLM文本效果惊人，得分158",
+      "$100对比Claude vs GPT音乐视频引热议",
+      "LM Studio推出Bionic Agent，本地开源模型",
+      "1Password让Claude安全读取凭据",
+      "Anthropic与欧盟监管摩擦引社区关注",
+      "模型安全可控性问题受强烈关注"
+    ],
+    "ai-arxiv": [
+      "LongStraw实现2M tokens有限GPU RL后训练",
+      "BadWAM揭示世界行动模型鲁棒性危机",
+      "VEXMLM扩展词表降低低资源语言OOV率",
+      "Mask-Aware Policy Gradients用于扩散语言模型",
+      "T2MLR引入中间层时间递归提升长程推理",
+      "On-Policy Delta Distillation提供高效蒸馏"
+    ],
+    "ai-hf": [
+      "zai-org/GLM-5.2周点赞4029，国产MoE领跑",
+      "empero-ai/Qwythos-9B系列下载超200万",
+      "HauhauCS/Qwen3.6魔改版下载量233万夺冠",
+      "prism-ml/Bonsai-27B 1-bit量化，CPU可运行",
+      "baidu/Unlimited-OCR获2010赞，黑马崛起",
+      "tencent/Hy3发布，Hunyuan系列新文本模型"
+    ],
+    "ai-community": [
+      "LLM Evals三原则：有用、正确、安全",
+      "Google AI澄清agentic harness概念",
+      "AI生成代码是贷款，未来需付利息",
+      "开源观测工具用Go解决Agent黑盒问题",
+      "Claude桌面端空闲时占用大量CPU资源",
+      "Anthropic筹备9650亿美元IPO，扩展微VM"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.212 released",
+      "Opus 4.8 auto-filed issue #78300",
+      "Agent safety and reliability dominate",
+      "Cross-platform parity remains pain point",
+      "CodeWhale rebranded from DeepSeek TUI",
+      "Session compaction and orchestration focus"
+    ],
+    "ai-agents": [
+      "OpenClaw 500 issues/500 PRs in 24h",
+      "No new releases, 2026.7.1 regressions",
+      "Fix emoji in log previews (#109481)",
+      "Reject oversized piped recovery key",
+      "Maintainers actively merging PRs",
+      "Critical gateway crash-loop unresolved"
+    ],
+    "ai-trending": [
+      "Skills ecosystem projects gained 5,500+ stars",
+      "Apache Ossie standardizes semantic metadata",
+      "DeepTutor open-source lifelong tutoring",
+      "openinterpreter rewritten in Rust",
+      "GitHub Copilot SDK launched",
+      "PostHog adds AI observability and MCP"
+    ],
+    "ai-web": [
+      "Anthropic published nothing today",
+      "OpenAI: 'Why Teens Deserve Access Safe Ai'",
+      "Article metadata-only, no text",
+      "Quiet period for both companies",
+      "Possible lull before announcements",
+      "No substantive analysis possible"
+    ],
+    "ai-hn": [
+      "105 YC founders worked at OpenAI/Anthropic",
+      "LM Studio Bionic launches for open models",
+      "Classical ML detects LLM-generated text",
+      "Claude vs GPT-5.6 music video benchmark",
+      "Anthropic snubbed EU Parliament",
+      "1-bit LLM runs in browser"
+    ],
+    "ai-arxiv": [
+      "Robustness and safety in agentic systems",
+      "Scaling RL for long-context tasks",
+      "Political neutrality audit of LLM encyclopedias",
+      "VEXMLM for low-resource African languages",
+      "T^2MLR improves long-horizon reasoning",
+      "Mask-Aware policy gradients for diffusion LMs"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE tops trending (4K likes)",
+      "Bonsai series 1-bit quant downloads 559K+",
+      "Qwythos-9B GGUF exceeds 2M downloads",
+      "Qwen3.5 drives vision-language fine-tuning",
+      "Inkling multimodal model trending",
+      "Tencent Hy3 text-generation model"
+    ],
+    "ai-community": [
+      "Agent skills and .claude configs trending",
+      "Hidden costs: token drift, orphaned agents",
+      "Bruce Schneier on AI wealth concentration",
+      "LLM evals guide for developer tools",
+      "AI code as technical debt loan metaphor",
+      "Self-hosted Go observability tool for agents"
+    ]
+  }
+}
