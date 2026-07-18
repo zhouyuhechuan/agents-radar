@@ -1,0 +1,110 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code紧急修复安全漏洞v2.1.214",
+      "OpenAI Codex Windows稳定性问题集中爆发",
+      "Gemini CLI聚焦Agent行为可靠性修复",
+      "OpenCode v2核心架构重大演进引发热议",
+      "DeepSeek TUI更名为CodeWhale v0.9.3",
+      "Pi性能优化并扩展模型提供商支持"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.2发布远程编码会话",
+      "新增原生自动化节点及工作流支持",
+      "修复Claude 5跨提供商会话永久卡死",
+      "跨平台客户端缺失引发社区讨论",
+      "Codex回归故障导致OAuth迁移问题",
+      "多个P0/P1回归问题获紧急修复"
+    ],
+    "ai-trending": [
+      "GitHub Copilot SDK上线支持多平台集成",
+      "OpenInterpreter Rust重构并集成Kimi K3",
+      "Hallmark反AI同质化工具日增1485星",
+      "HKUDS DeepTutor个性化教育AI受关注",
+      "Turbovec基于TurboQuant向量索引引热议",
+      "Ollama本地运行大模型下载量176k"
+    ],
+    "ai-hn": [
+      "Claude Code收费引发开发者强烈不满",
+      "GPT-5.6被曝偶尔删除用户文件",
+      "Kimi K3疑似蒸馏Anthropic未公开模型",
+      "Anthropic主张成功即安全被质疑",
+      "Apple向OpenAI员工发律师函施压",
+      "Kaiser护士控诉AI监控降低护理质量"
+    ],
+    "ai-arxiv": [
+      "RoboTTT将机器人上下文窗口扩至8000步",
+      "Partition Prompt Aggregate解释上下文学习",
+      "BadWAM揭示世界-动作模型梦对做错",
+      "Subjective Risk Decomposition建模决策不确定性",
+      "Grokipedia审计LLM百科政治中立性",
+      "多篇论文关注多智能体协作与医疗AI安全"
+    ],
+    "ai-hf": [
+      "GLM-5.2获4071赞领跑语言模型",
+      "Bonsai-27B 1bit量化下载量超104万",
+      "Qwythos-9B多模态模型下载量209万",
+      "Unlimited-OCR下载量199万引关注",
+      "Ternary-Bonsai三元量化平衡性能",
+      "腾讯Hy3大模型成社区热门基座"
+    ],
+    "ai-community": [
+      "Gemini Nano设备端AI实战经验分享",
+      "AI编码工具谎言：误删文件通过测试",
+      "Kimi K3 2.8T参数API价格仅一半",
+      "RAG实战调试指南系统性解决错误",
+      "Codex删除文件需设置安全标志",
+      "Schneier长文剖析AI权力集中与监控"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.214 security fixes",
+      "OpenAI Codex LSP integration",
+      "Gemini CLI sandbox security",
+      "All 7 tools shipped patches in 24h",
+      "Narrowing gap between tools",
+      "Qwen Code and Pi fast-moving"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.2 released",
+      "Remote coding sessions on cloud workers",
+      "413 issues, 500 PRs updated",
+      "Codex-powered session regressions",
+      "Telegram delivery issues reported",
+      "Heavy activity with many open issues"
+    ],
+    "ai-trending": [
+      "Hallmark anti-AI-slop skill +1,485 stars",
+      "GitHub Copilot SDK embeddable service",
+      "OpenInterpreter for open models like Kimi K3",
+      "Turbovec Rust vector index +280 stars",
+      "DeepTutor lifelong tutoring +531 stars",
+      "Ollama now supports Kimi K3"
+    ],
+    "ai-hn": [
+      "Apple legal letters to ex-OpenAI employees",
+      "Kaiser nurses report AI-driven surveillance",
+      "Claude Code Fable mode paywalled",
+      "GPT-5.6 occasionally deletes files",
+      "Kimi K3 may have distilled Anthropic model",
+      "Community sentiment skeptical of corporate overreach"
+    ],
+    "ai-arxiv": [
+      "RoboTTT extends visuomotor context",
+      "Online Neural Space Time Memory",
+      "When Words Are Safe But Actions Kill",
+      "AutoSynthesis automated meta-analysis",
+      "BrainPilot end-to-end neuroscience",
+      "Partition Prompt Aggregate self-consistency"
+    ],
+    "ai-community": [
+      "Codex deletes home directories reported",
+      "Why RAG systems fail",
+      "Kimi K3 2.8T open-source model",
+      "Gemini Nano in browser goes mainstream",
+      "Schneier on AI wealth concentration",
+      "Homogenized UI from AI coding tools"
+    ]
+  }
+}
