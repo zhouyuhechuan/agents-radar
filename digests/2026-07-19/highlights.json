@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "OpenAI Codex 发布 rust-v0.144.6 稳定版热修复",
+      "GitHub Copilot CLI 1M上下文请求获62👍",
+      "Kimi Code CLI 24h内实现 Feature Request",
+      "Pi 社区密集 Bug 修复与性能优化 PR",
+      "Qwen Code 发布 v0.19.12 正式版",
+      "多工具关注会话与上下文管理问题"
+    ],
+    "ai-agents": [
+      "OpenClaw v2026.7.2-beta.3 发布，引入远程编码会话",
+      "今日237个PR被合并，社区活跃度极高",
+      "安全信任边界成焦点（记忆体标记、密钥遮蔽）",
+      "Telegram 渠道新功能支持讨论热烈",
+      "数据库迁移问题需注意（issue #109867）",
+      "Codex 集成行为变更可能中断工作流"
+    ],
+    "ai-trending": [
+      "airllm 4GB GPU运行70B模型，今日+161星",
+      "MCP生态爆发，wigolo获203星，零API费用",
+      "dify（14.9w⭐）、langchain（14.2w⭐）统治Agent框架",
+      "hermes-agent 异军突起，21.6w⭐",
+      "mem0 等记忆层项目星速攀升",
+      "本地搜索MCP wigolo 今日+203星"
+    ],
+    "ai-hn": [
+      "GPT-5.6用提示词解决凸优化30年难题（504分）",
+      "旧金山禁止房东用AI生成图片虚假宣传（207分）",
+      "Claude控制Mac配置教程引安全担忧（178分）",
+      "Claude Fable 5将纳入Max计划（7月20日起）",
+      "测试发现Claude对Anthropic有微妙偏见",
+      "开源Claude Design替代项目获77k星"
+    ],
+    "ai-hf": [
+      "GLM-5.2登顶热度榜，MoE架构4,126赞",
+      "Google Gemma-4-31B-it下载量1260万",
+      "Bonsai量化模型下载量极高，效率优先",
+      "百度Unlimited-OCR下载量200万",
+      "多模态Inkling支持图像/文本/音频综合",
+      "Qwythos-9B多模态推理模型获210万下载"
+    ],
+    "ai-community": [
+      "开放模型占63% Token流量（Mozilla数据）",
+      "Kimi K3 2.8万亿参数，移动端120B推理",
+      "文章区分上下文窗口与持久记忆方案",
+      "PDF文本浪费Token获18👍优化技巧",
+      "企业AI平台需七层边界，超越MCP",
+      "人类开发者视角重构AI代码助手协作"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "OpenAI Codex and Qwen Code lead release velocity",
+      "Gemini CLI and Copilot CLI show reduced activity",
+      "OpenCode and DeepSeek TUI open-source focus",
+      "Kimi Code CLI remains most nascent tool",
+      "Claude Code digest generation failure noted",
+      "MCP integration reliability is a common pain point"
+    ],
+    "ai-agents": [
+      "OpenClaw: 390 issues, 500 PRs in 24h",
+      "New beta v2026.7.2-beta.3 released",
+      "Remote coding sessions now supported",
+      "Native automation and nodes improved",
+      "141 issues closed, 237 PRs merged",
+      "Stability focus with strong forward momentum"
+    ],
+    "ai-trending": [
+      "MCP ecosystem reshaping open-source AI",
+      "code-review-graph gains +355 today",
+      "wigolo gets +203 for local web search",
+      "airllm runs 70B on a 4GB GPU",
+      "hermes-agent and AutoGPT dominate stars",
+      "lingbot-map: 3D scene foundation model"
+    ],
+    "ai-hn": [
+      "GPT-5.6 cracks 30-year convex optimization problem",
+      "SF mayor bans AI-generated rental ads",
+      "Guide: Claude Code controlling a spare Mac",
+      "Community skeptical about LLM reasoning",
+      "Debate on AI mania vs dot-com bubble",
+      "Agentic AI now a mainstream hobbyist project"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it leads with 12.6M downloads",
+      "Qwen 3.6 ecosystem growing rapidly",
+      "Prism-ML Bonsai sub-2-bit quantization",
+      "GLM-5.2 MoE architecture trending",
+      "MOSS-Transcribe-Diarize audio model",
+      "Wan-Dancer-14B video model gains traction"
+    ],
+    "ai-community": [
+      "Open models run 63% of token traffic",
+      "PDFs inflate LLM token costs",
+      "Context window is not memory",
+      "LLM caching with 20M-row table",
+      "Chinese startup: 2.8T mobile model",
+      "ELIZA retrospective on Lobste.rs"
+    ]
+  }
+}
