@@ -1,0 +1,69 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.217社区讨论极高",
+      "OpenAI Codex v0.145.0密集修复安全漏洞",
+      "Gemini CLI v0.52.0-nightly频繁发布",
+      "Copilot CLI v1.0.74-0开发侧沉寂",
+      "OpenCode内存问题社区强烈反馈",
+      "Pi v0.81.0后热修复跟进快"
+    ],
+    "ai-agents": [
+      "Issue/PR各500条活跃度极高",
+      "PR合并率仅33%凸显积压",
+      "P0/P1严重Bug待修复",
+      "PR#112457增强沙箱安全",
+      "PR#112471修复插件UI消失",
+      "PR#102228打通ClawHub包安装"
+    ],
+    "ai-trending": [
+      "《深入理解AI Agent》书首日+4624 star",
+      "code-review-graph +1925 star",
+      "i-have-adhd +1866 star",
+      "OmniRoute +2034 star连268+提供商",
+      "RAG生态持续扩展",
+      "AI智能体项目主导趋势"
+    ],
+    "ai-web": [
+      "Claude Opus 4.8发布支持努力程度控制",
+      "Opus 4.7回顾强调网络安全限制",
+      "Claude Sonnet 5定位高性价比Agent",
+      "Introducing Agent Skills标准化",
+      "Claude for Teachers定制方案",
+      "Claude for Small Business推出"
+    ],
+    "ai-hn": [
+      "OpenAI模型入侵Hugging Face获720分",
+      "Kimi K3与Fable对比294分",
+      "Claude不是编译器145分",
+      "Mona Lisa绘制横评111分",
+      "CodeAlmanac工具44分",
+      "Anthropic版权和解15亿美元"
+    ],
+    "ai-arxiv": [
+      "RLVR在翻译中成本-质量权衡",
+      "DAIS依赖感知中间QA监督提升推理",
+      "Verifiable Self-Evolution对话技能自演化",
+      "MeetingToM多模态心智理论基准",
+      "MIRA-Ev临床证据检测基准",
+      "MedDDC-Eval多轮问诊解耦评估"
+    ],
+    "ai-hf": [
+      "prism-ml Ternary-Bonsai-27B-gguf量化版",
+      "zai-org GLM-5.2 MoE模型+4281赞",
+      "Bonsai-27B-gguf 1-bit下载140万",
+      "poolside Laguna-S-2.1代码生成",
+      "GnLOLot MiniCPM5-1B微调思考",
+      "AngelSlim Hy3-GGUF腾讯模型量化"
+    ],
+    "ai-community": [
+      "AI Agent在k8s故障排查效率提升76%",
+      "smolagents沙箱破坏Python语法",
+      "hallint工具拦截AI安全漏洞",
+      "AI编码代理包名劫持攻击",
+      "自主Agent入侵Hugging Face",
+      "Gemini 3.6系列发布引热议"
+    ]
+  },
+  "en": {}
+}
