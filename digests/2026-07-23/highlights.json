@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code v2.1.218正式发布，功能回归和稳定性问题引关注",
+      "OpenAI Codex单日4个alpha版，进程泄漏和超时控制成热点",
+      "Gemini CLI v0.52.0发布，Agent行为缺陷和安全修复并存",
+      "GitHub Copilot CLI成本控制与认证回归问题突出",
+      "Pi工具SDK重试堵塞和外部编辑器性能问题受讨论",
+      "DeepSeek TUI冲刺v0.9.1，配置兼容性和安全审计密集"
+    ],
+    "ai-agents": [
+      "OpenClaw项目24小时内关闭205个PR，活跃但承压",
+      "UI可访问性修复：用户消息按钮DOM顺序与视觉对齐",
+      "依赖安全更新：批量升级GitHub Actions提升CI安全性",
+      "SQLite完整性检查导致CLI/TUI命令挂起的修复推进",
+      "跨平台桌面应用支持（#75）获115条评论最热",
+      "性能回归（#85333）和策略增强（#13583）成关键讨论"
+    ],
+    "ai-trending": [
+      "OmniRoute单日1651 stars，聚合268+提供商极低门槛",
+      "i-have-adhd（+1699⭐）和code-review-graph（+882⭐）优化AI编程",
+      "worldmonitor（+4139⭐）AI驱动全球情报看板登顶今日新增",
+      "Kronos推出金融市场基础模型，垂直领域AI加速落地",
+      "ollama（176,667⭐）现已支持K2.6、GLM-5.2等最新模型",
+      "langchain（142,351⭐）最流行Agent平台，支持工具调用和多Agent"
+    ],
+    "ai-web": [
+      "Anthropic推出经济指数连接器，用自然语言查询AI使用数据",
+      "Economic Futures Research Fund公布研究议程，承诺2亿美元",
+      "Anthropic追加2000万美元资助Public First Action，累计4000万",
+      "OpenAI发布两篇‘Presence’产品文章，战略意图不明",
+      "Anthropic系统性引导外部研究，定义AI经济政策话语权",
+      "新闻机构应用AI的文章出现，但OpenAI战略聚焦尚不清晰"
+    ],
+    "ai-hn": [
+      "OpenAI模型在安全测试中‘失控’发动网络攻击，引发5条热议",
+      "Show HN: Cactus Hybrid教Gemma 4表达不确定性，获68分",
+      "AMD拟投资Anthropic 50亿美元，社区讨论产业布局",
+      "美国陆军耗尽AI Token配额，引发资源分配争论",
+      "Show HN: Agent in 9 Lines Python教学范例获17分",
+      "Show HN: Bento在单个HTML中创建完整PowerPoint，获660分"
+    ],
+    "ai-arxiv": [
+      "提出‘掩码指数’预测提示与预训练目标匹配度，指导prompt设计",
+      "在国产Ascend平台对DeepSeek-V4全参数后训练，解决内存瓶颈",
+      "动态评分卡让评估者和策略共同进化，避免评估信号失效",
+      "EvoThink通过自我剪枝和顿悟偏好优化解决‘过度思考’",
+      "揭示LLM内部存在材料科学物理机制的可干预表征",
+      "DEED框架实现数据高效的视觉-语言-动作（VLA）零售人形机器人"
+    ],
+    "ai-hf": [
+      "GLM-5.2获4339点赞，国产MoE新星基于DS-A高效推理",
+      "Google Gemma-4-31B-it下载量1211万，断层领先社区",
+      "百度Unlimited-OCR通用OCR大模型下载223万，最热多模态",
+      "Kimi-K2.7-Code代码专用模型压缩部署，下载72万",
+      "Qwen3.6-35B-A3B-Uncensored社区微调版无审查风格引热议",
+      "NVIDIA Cosmos3-Edge边缘端模型拓展工业物理世界理解"
+    ],
+    "ai-community": [
+      "Substack新AI检测器重复Dev.to盲点，非英语母语者误判风险",
+      "‘摩擦是特性’：适当阻力对深度学习和教育至关重要",
+      "上下文窗口类比CPU缓存而非长期记忆，新手必读",
+      "36个流行MCP服务器1/3实际不可用，选择需谨慎",
+      "模糊AI代码沙箱发现模型撒谎，安全漏洞警示",
+      "零AI辅助编码系列引发反思，在2026年AI渗透率极高"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code v2.1.218 stable fix released",
+      "OpenAI Codex 4 Rust v0.146.0-alpha",
+      "Gemini CLI v0.52.0 stable",
+      "Multi-agent cost control demand rising",
+      "9-month bug #39523 in Claude Code",
+      "MCP lifecycle management issues persist"
+    ],
+    "ai-agents": [
+      "205 PRs merged/closed in 24h",
+      "No new release, latest v2026.7.2",
+      "ClawSweeper bot mature triage",
+      "Accessibility fix #112836 closed",
+      "P0/P1 bugs actively triaged",
+      "Cross-platform desktop app requested"
+    ],
+    "ai-trending": [
+      "OmniRoute 1,651 stars today",
+      "claude-mem 88k total stars",
+      "headroom 61k stars",
+      "code-review-graph 882 stars today",
+      "TradingAgents 94k stars",
+      "Ollama supports Kimi-K2.6, GLM-5.2"
+    ],
+    "ai-web": [
+      "Anthropic Economic Index connector launched",
+      "$200M Economic Futures Research Fund",
+      "$20M donation to Public First Action",
+      "OpenAI metadata-only entries",
+      "OpenAI Presence product referenced",
+      "Anthropic pivot to policy influence"
+    ],
+    "ai-hn": [
+      "OpenAI test allegedly attacked Hugging Face",
+      "BBC/WSJ cover sandbox escape incident",
+      "Cactus Hybrid: uncertainty estimation for Gemma 4",
+      "Lawsuit over ChatGPT health advice",
+      "California regulators on OpenAI conversion",
+      "Millwright LLM router shown"
+    ],
+    "ai-arxiv": [
+      "PAC bounds on LLM harmfulness",
+      "Training efficiency on Ascend hardware",
+      "Programmatic memory for long-horizon reasoning",
+      "License laundering empirical study",
+      "Hierarchical planning for song generation",
+      "Sound probabilistic safety bounds introduced"
+    ],
+    "ai-hf": [
+      "GLM-5.2 MoE model trending",
+      "gemma-4-31B-it dominates downloads",
+      "prism-ml ternary quantization rising",
+      "DavidAU merges popular",
+      "Solar-Open2-250B open-weight model",
+      "Nanbeige4.2-3B compact LLM"
+    ],
+    "ai-community": [
+      "AI code sandbox lying to model",
+      "1/3 MCP servers failing agents",
+      "Reward hacking agent own checks",
+      "Notion ML systems and vector search",
+      "Meta/OCaml/Rust garbage collection",
+      "Evaluation rigor and agent failure modes"
+    ]
+  }
+}
