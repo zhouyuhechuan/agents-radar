@@ -1,0 +1,134 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code一日双更，引入Opus 5模型与沙箱白名单",
+      "OpenAI Codex Rust运行时连发4个Alpha，Windows稳定性成痛点",
+      "Gemini CLI Agent逻辑缺陷：子代理误报、无限挂起",
+      "GitHub Copilot CLI v1.0.75新增Opus 5，但回归Bug集中爆发",
+      "OpenCode v1.18.5聚焦模型兼容性与多Provider自动发现",
+      "Pi v0.82.0引入受约束工具采样，技术路线前沿"
+    ],
+    "ai-agents": [
+      "463条Issue更新，355条活跃，108条关闭",
+      "500条PR更新，203条待合并，项目健康度中等偏下",
+      "P0/P1级严重Bug如网关启动崩溃、会话恢复卡死未修复",
+      "#113450为Control UI添加Markdown渲染通知行",
+      "社区贡献者zenglingbiao提交系列PR修复代理兼容性",
+      "#102020会话初始化冲突成社区最热讨论点"
+    ],
+    "ai-trending": [
+      "OmniRoute单日+1841 stars，统一290+供应商模型网关",
+      "worldmonitor全球情报仪表盘单日+2184 stars",
+      "ego-lite AI代理浏览器单日+880 stars",
+      "awesome-claude-skills闭源模型生态单日+663 stars",
+      "RuView基于WiFi空间感知，单日+1022 stars",
+      "Kronos金融基础模型单日+499 stars"
+    ],
+    "ai-web": [
+      "Anthropic发布Claude Opus 5，性能接近Fable 5价格减半",
+      "Opus 5引入努力程度设置，平衡计算投入与成本",
+      "基准测试中Opus 5在Frontier-Bench等达SOTA",
+      "Anthropic设立2亿美元经济未来研究基金支持五大方向",
+      "前沿红队探索AI操控无人机，为物理世界交互铺路",
+      "OpenAI今日无新内容发布，形成短暂战略窗口"
+    ],
+    "ai-hn": [
+      "Claude Opus 5引爆HN，1312分710条评论热议",
+      "OpenAI黑客代理故事遭Guardian质疑安全叙事",
+      "Debian发起禁止LLM贡献代码的社区投票",
+      "美国财政部威胁制裁涉嫌蒸馏Anthropic模型的公司",
+      "印度法院裁定OpenAI未侵犯版权",
+      "Apertus 1.5发布，瑞士开放权重模型70B参数"
+    ],
+    "ai-arxiv": [
+      "Surprisal Theory被证重言式，无约束下可拟合任意度量",
+      "OpenForgeRL开源强化学习栈，兼容Claude Code等框架",
+      "AREX递归自改进代理，利用不对称性攻克难题",
+      "Token Budget Saturation发现CoT模型双峰收敛模式",
+      "Agentic Context Management将失败归因为上下文失控",
+      "Test-Time Scaling via Error Localization无需外部反馈"
+    ],
+    "ai-hf": [
+      "Unlimited-OCR下载250万次，百度通用多语言OCR标杆",
+      "GLM-5.2获4.4k赞，智谱MoE架构+DSA动态稀疏注意力",
+      "Inkling对话式图像理解，交互式分析新工具",
+      "Solar-Open2-250B开源250B MoE大模型",
+      "Gemma-4-31B与Qwen3.6-35B-A3B多模态旗舰受关注",
+      "量化版本霸榜，GLM-5.2、Qwen3.6等GGUF版本密集发布"
+    ],
+    "ai-community": [
+      "Sentry span hierarchy暴露5-Agent管道中隐藏重试",
+      "消失的核心维护者引发技术债务与风险激辩",
+      "6款开源工具帮开发者重获网络控制权",
+      "上下文压缩技术减少Agent token消耗",
+      "世界模型获10亿美元融资，成下一热词",
+      "RAG评估陷阱警示：重排序等优化不可或缺"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Claude Code and OpenAI Codex lead in feature velocity",
+      "All tools racing to support Claude Opus 5",
+      "Claude Code v2.1.219-220 patches released",
+      "Issue #38335 has 805 comments on Claude Code",
+      "OpenAI Codex has 10 significant PRs active",
+      "Gemini CLI focuses on evaluation rigor"
+    ],
+    "ai-agents": [
+      "463 issues, 500 PRs updated in 24h",
+      "297 PRs merged or closed in last day",
+      "No new releases published today",
+      "PR #113459 fixes SQLite verifier quarantine",
+      "High community and development engagement",
+      "Many high-impact issues remain unresolved"
+    ],
+    "ai-trending": [
+      "OmniRoute gains +1,841 stars today",
+      "RuView turns WiFi into spatial intelligence",
+      "skills adds +2,251 stars for agent scripts",
+      "worldmonitor +2,184 stars for AI dashboard",
+      "Kronos foundation model for financial markets",
+      "dive-into-llms +328 stars for LLM tutorials"
+    ],
+    "ai-web": [
+      "Anthropic launched Claude Opus 5 model",
+      "Opus 5 at half cost of Fable 5",
+      "$200M Economic Futures Research Fund",
+      "Project Pilot shows autonomous drone AI",
+      "OpenAI published no new content today",
+      "Drone-Bench evaluation benchmark introduced"
+    ],
+    "ai-hn": [
+      "Claude Opus 5 tops with 1,312 points",
+      "OpenAI rogue hacker agent controversy",
+      "OpenAI didn't notice Hugging Face hack",
+      "New context engineering rules for Claude 5",
+      "Apertus 1.5 open model 70B from Switzerland",
+      "Debian votes on banning LLM contributions"
+    ],
+    "ai-arxiv": [
+      "Barzilai-Borwein fails superlinear convergence",
+      "Surprisal theory called tautological",
+      "Windowed-MTP for million-token context",
+      "AREX recursively self-improving agents",
+      "Two papers address test-time scaling",
+      "Beyond Sycophancy for LLM moral reasoning"
+    ],
+    "ai-hf": [
+      "Gemma-4-31B-it dominates multimodal LLMs",
+      "Qwen3.6-35B-A3B trending on Hugging Face",
+      "GLM-5.2 reaches 4,415 likes",
+      "Extreme quantization models surge",
+      "Unlimited-OCR and OvisOCR2 for OCR",
+      "Laguna-S-2.1 has 28,992 downloads"
+    ],
+    "ai-community": [
+      "Sentry span trace exposed silent retry",
+      "Cutting Devanagari token cost by 33%",
+      "The Person Who Fixed the Bugs Vanished",
+      "Microsoft on open-weight AI leadership",
+      "MLIR dialect stack tour published",
+      "Notion's vector-search cost reduction"
+    ]
+  }
+}
