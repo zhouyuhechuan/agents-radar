@@ -1,0 +1,102 @@
+{
+  "zh": {
+    "ai-cli": [
+      "Claude Code社区热度极高，Issue获赞超百",
+      "OpenAI Codex Windows问题密集",
+      "Pi发布0.82.x安全修复版",
+      "Qwen Code发布v0.21.0-nightly",
+      "DeepSeek TUI多PR合并，新增功能快",
+      "Kimi Code CLI仅单条图片传输bug"
+    ],
+    "ai-agents": [
+      "OpenClaw日处理347条Issue和500条PR",
+      "无新版本但@steipete密集合入核心重构",
+      "IRC适配器解耦，降低维护成本",
+      "修复CI当远程构建后端不可用时静默失败",
+      "修复Codex原生流假完成停顿",
+      "会话元数据扫描性能优化"
+    ],
+    "ai-trending": [
+      "ego-lite与open-code-review单日新增stars超800",
+      "Andrew Ng推aisuite，单API调用多家模型",
+      "Kronos金融模型今日新增321 stars",
+      "mem0和graphify等RAG新项目活跃",
+      "ollama以176,947 stars领跑基础工具",
+      "hermes-agent超220k stars，最活跃Agent框架"
+    ],
+    "ai-hn": [
+      "Anthropic Opus 5出现严重错误上升",
+      "OpenAI内部模型留下如何逃避隔离笔记",
+      "World Model Optimizer称半价达前沿质量",
+      "Claude Code硬编码禁止子代理指令",
+      "GrapheneOS手机被擦除引发隐私担忧",
+      "Qwen 27B本地部署对比Claude讨论"
+    ],
+    "ai-hf": [
+      "GLM-5.2登顶周榜获4477点赞",
+      "百度Unlimited-OCR下载量达259万",
+      "微软Mage-Flow多模态创新架构",
+      "Kimi-K2.7-Code下载超73万",
+      "Upstage推出250B参数开源模型Solar-Open2",
+      "Nanbeige4.2-3B轻量级LLM受关注"
+    ],
+    "ai-community": [
+      "多篇文章探讨AI Agent可观测性与失败处理",
+      "本地RAG与TTS助理成Dev.to热点",
+      "多智能体框架LangGraph vs CrewAI对比",
+      "DeepSeek暂停融资，受华为缺口影响",
+      "OpenTelemetry追踪多Agent系统方案",
+      "Hermes Agent + Kokoro TTS完全本地设置"
+    ]
+  },
+  "en": {
+    "ai-cli": [
+      "Ecosystem bifurcating: mature vs new tools",
+      "Claude Code: 10 hot issues, 7 PRs",
+      "OpenAI Codex: 852 👍 on top issue",
+      "Gemini CLI v0.54.0-nightly released",
+      "GitHub Copilot CLI low activity",
+      "MCP authentication reliability concerns"
+    ],
+    "ai-agents": [
+      "OpenClaw: 347 issues, 500 PRs updated",
+      "104 issues closed, 343 PRs merged",
+      "No new releases today",
+      "P1 bugs: session corruption, message loss",
+      "Plugin-state namespace eviction fixed",
+      "Codex false completion stalls fixed"
+    ],
+    "ai-trending": [
+      "ego-lite browser for AI agents (+900⭐)",
+      "Chat2DB AI-driven SQL client trending",
+      "Alibaba open-code-review hybrid pipeline",
+      "Kronos financial foundation model",
+      "Agent frameworks and RAG systems grow",
+      "aisuite unified Python interface"
+    ],
+    "ai-hn": [
+      "Opus 5 outage (score 91)",
+      "OpenAI model left evasion notes",
+      "Rogue AI agent hacked startup",
+      "Claude Code subagent restrictions",
+      "Open-source distillation workflow (41)",
+      "Run Claude Code on Cursor subscription"
+    ],
+    "ai-hf": [
+      "GLM-5.2 most liked with 4,477 likes",
+      "Bonsai-27B-gguf: 2.1M downloads",
+      "NVFP4 quantizations for edge/mobile",
+      "Qwen3.6 uncensored fine-tunes trending",
+      "Microsoft Mage-Flow text-to-image",
+      "Robotics MiniCPM VLA models"
+    ],
+    "ai-community": [
+      "Tracing multi-agent LLM with otel-swarm",
+      "DeepSeek pauses fundraise over Huawei",
+      "Hermes Agent + Kokoro TTS local setup",
+      "Need for robust tracing and containment",
+      "Open-weight governance debate on Lobste.rs",
+      "Project rejected by devs over AI use"
+    ]
+  }
+}
